@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./assets/solution.PNG)
+![screenshot](./solution.PNG)
 
 Please visit [https://devchallenge-my-team-page.web.app](https://devchallenge-my-team-page.web.app) to check out my demo. This time I'm using a pure html + CSS to build this page. Highlight of this project is that I learned a new css property: writing-mode.
 
@@ -46,7 +46,7 @@ Learning:
   
   justify-content: 
   
-  >![space-between vs space-evenly vs space-around](./assets/space-between.PNG)
+  >![space-between vs space-evenly vs space-around](./space-between.PNG)
 
 ### Built With
 
