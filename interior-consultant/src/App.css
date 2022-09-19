@@ -1,9 +1,11 @@
 .App {
-  height: 100vh;
-  text-align: center;
-  padding: 2rem 10rem 0;
+  padding: 0 10rem;
   background: #181719;
   color: #FFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header, main {
@@ -20,31 +22,94 @@ header button {
   border: 1px solid #FFF;
   color: #FFF;
   text-transform: uppercase;
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
 }
 
 .intro {
-  max-width: 20rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  max-width: 40%;
+}
+
+.intro-header {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+}
+
+.intro-content {
+  text-align: left;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.read-more {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.read-more::after {
+  content: '🠒';
+  display: inline-block;
+  padding-left: 14px;
+  transform: scale(2);
 }
 
 .picture {
-  
+  width: 50%;
 }
 
 img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
-  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  color: #A9A9A9;
 }
 
 @media (max-width: 768px) {
   .App {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding:0 1rem;
+  }
+
+  .main {
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .intro {
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  .picture {
+    margin-top: 2rem;
+  }
+
+  img {
+    width: 90vw;
+    height: auto;
   }
 }

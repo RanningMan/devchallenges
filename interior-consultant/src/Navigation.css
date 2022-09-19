@@ -14,6 +14,10 @@ ul {
 li {
     padding: 1rem;
     padding-bottom: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 li:hover {
@@ -22,6 +26,7 @@ li:hover {
 
 .selected {
     border-bottom:solid 2px #FFF;
+    font-weight: 700;
 }
 
 .hamburger {
@@ -37,6 +42,11 @@ li:hover {
         flex-direction: column;
     }
 
+    .nav > * {
+        padding: 0;
+        margin: 0;
+    }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -47,7 +57,7 @@ li:hover {
         height: 100vh;
         top: 0;
         left: 0;
-        background-color: black;
+        background-color: #181719;
     }
 
     li {
@@ -55,14 +65,12 @@ li:hover {
         z-index: 20;
     }
 
-    .selected {
-        font-weight: bolder;
-        border-bottom: none;
-    }
-
     .cross {
         color: #FFF;
         z-index: 20;
         cursor: pointer;
+        position: fixed;
+        top: 1rem;
+        right: 3rem;
     }
 }

@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://devchallenge-interior-design.web.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/interior-consultant">
       Solution
     </a>
     <span> | </span>
@@ -36,30 +36,22 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![solution-1](./solution-1.PNG)
+![solution-2](./solution-2.PNG)
+![solution-3](./solution-3.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Please visit https://devchallenge-interior-design.web.app to checkout my demo. I built this with React. A few things I reviewed during the practice:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-Learning:
-1. Add footer
-  https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
-  
-2. Basic responsive layout (left-right becomes upper-lower)
-3. Navigation component
-  Responsive: 2 ways => matchmedia, window.innerWidth
+1. Add footer: set ```display: flex; flex-direction: column; justify-content: space-between;``` to highest level component. 
+2. Navigation component
+  There are two ways to set navigation component responsive and display different component based on screen size: use matchmedia and use window.innerWidth. I used innerWidth in this practice.
+3. Move element to top 50%: set ```translate: 0 -50%;``` to the element.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
@@ -77,6 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](https://rxia.me)
+- GitHub [@your-username](https://github.com/ranningman)

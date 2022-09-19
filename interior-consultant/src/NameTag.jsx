@@ -11,9 +11,9 @@ const NameTag  = () => {
                     <p className="designer-title">Interior designer</p>
                 </div>
             </div>
-            <div className="name-tag-content-line">
+            <h2 className="name-tag-content-line">
                 Designed in 2020 by Aliza Webber
-            </div>
+            </h2>
         </div>
     )
 }
