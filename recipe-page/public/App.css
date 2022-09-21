@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App > * {
+  box-sizing: border-box;
+  padding: 12px 12px 0;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+}
+
+section {
+  text-align: left;
+}
+
+.intro {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  color: #4F4F4F;
+  display: flex;
+}
+
+.icons {
+  line-height: 100%;
+  width: 30px;
+}
+
+.icons::before, .icons::after {
+  content: '...';
+  position: relative;
+  font-size: 36px;
+  bottom: 7px;
+  color: #C4C4C4;
+}
+
+.icons::after {
+  bottom: 13px;
+  right: 22px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  padding-right: 36px;
+  margin-bottom: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  color: #333333;
+}
+
+.stats:first-child {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  color: #F2994A;
+  width: 100%;
+}
+
+.stats p {
+  padding: 0;
+  margin: 0;
+}
+
+.right p:nth-child(1) {
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  color: #BDBDBD;
+}
+
+.right p:nth-child(2) {
+  font-size: 10px;
+}
+
+.stats .right {
+  text-align: left;
+  padding-left: 3px;
+}
+
+.ingredients div {
+  display: flex;
+}
+
+input[type="checkbox"] {
+  align-self: flex-start;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  width: 21px;
+  height: 21px;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.ingredients p {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ingredients label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: 3px;
+}
+
+.instructions {
+  counter-reset: step;
+  margin-bottom: 36px;
+}
+
+.instructions p::before {
+  counter-increment: step;
+  content: counter(step);
+  display: flex;
+  justify-content: center;
+  background: #F2994A;
+  border-radius: 6px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 12px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.instructions p {
+  margin-left: 48px;
+  margin-bottom: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+}
+
+q {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BDBDBD;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  color: #A9A9A9;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 80%;
+    transform: translateX(10%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  aside {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+
+  .stats:first-child {
+    margin-top: 24px;
+    width: 50%;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    width: 50%;
+  }
+  
+  .right p:nth-child(1) {
+    font-size: 8px;
+  }
+  
+  .right p:nth-child(2) {
+    font-size: 10px;
+  }
+  
+  .stats .right {
+    text-align: left;
+    padding-left: 3px;
+  }
+
+  section {
+    width: 70%;
+  }
+}
