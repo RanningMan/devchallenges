@@ -1,0 +1,82 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.section {
+    font-weight: 600;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.input-line {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    font-size: 12px;
+}
+
+i {
+    box-sizing: border-box;
+    border: 1px solid #828282;
+    border-right: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 10px;
+    height: 100%;
+}
+
+input[type='text'], select {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #828282;
+    border-left: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 100%;
+}
+
+.last-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.last-row > div {
+    width: 47%;
+}
+
+input[type='checkbox'] {
+    margin-top: 0.5rem;
+}
+
+button {
+    align-self: flex-end;
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.label {
+    font-size: 10px;
+    transform: rotate(-0.02deg);
+}
+
+select {
+    cursor: pointer;
+}
