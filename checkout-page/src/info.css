@@ -60,7 +60,7 @@ input[type='checkbox'] {
     margin-top: 0.5rem;
 }
 
-button {
+.info button {
     align-self: flex-end;
     width: 166px;
     height: 54px;
@@ -70,6 +70,7 @@ button {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .label {
@@ -79,4 +80,14 @@ button {
 
 select {
     cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+@media screen and (min-width: 786px) {
+    .info {
+        width: 50%;
+    }
 }

@@ -1,0 +1,86 @@
+.payment {
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+.item {
+    display: flex;
+}
+
+.item-photo {
+    width: 40%;
+    margin: 1.5rem;
+}
+
+.item-photo img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.item-cost {
+    width: 40%;
+    margin-top: 1.5rem;
+}
+
+.item-name {
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.item-price {
+    margin-bottom: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-price {
+    color: #F2994A;
+    transform: rotate(-0.02deg);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.item-count {
+    width: 122.8px;
+    height: 49.86px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-count button {
+    background: #E0E0E0;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #828282;
+    cursor: pointer;
+}
+
+.checkout-line {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #BDBDBD;
+    transform: rotate(-0.18deg);
+    padding: 1rem;
+}
+.checkout-line span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
