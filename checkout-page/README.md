@@ -46,6 +46,7 @@ learning:
 Styling a form is not that easy without using a framework. I learned below 3 things when I'm doing this practice.
 
 1.1 how to put an icon inside an input element
+    
     ```
       <div>
           <i>location_city</i>
