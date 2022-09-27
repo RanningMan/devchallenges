@@ -15,7 +15,22 @@ const useIsDesktop = () => {
 	return isDesktop;
 };
 
-const NavList = ({ links, vertical }) => {
+const NavList = ({ links, vertical, ignoreMobile, onClick }) => {
+	if(ignoreMobile) {
+		return (
+			<ul
+				className={`nav__list ${
+					vertical ? 'nav__list-vertical-desktop' : 'nav__list-horizonal'
+				}`}
+			>
+				{links.map((link) => (
+					<li key={links.name} className='.nav__list__item nav__list__item-desktop'>
+						<a href={link.href}>{link.name}</a>
+					</li>
+				))}
+			</ul>
+		)
+	}
 	return (
 		<ul
 			className={`nav__list ${
@@ -23,7 +38,7 @@ const NavList = ({ links, vertical }) => {
 			}`}
 		>
 			{links.map((link) => (
-				<li className='nav__list__item'>
+				<li key={links.name} className='nav__list__item' onClick={onClick}>
 					<a href={link.href}>{link.name}</a>
 				</li>
 			))}
@@ -50,7 +65,7 @@ const NavHamburger = ({ links }) => {
 			{expand ? (
 				<>
 					<Hamburger onClick={toggle} cross />
-					<NavList links={links} vertical></NavList>
+					<NavList links={links} onClick={toggle} vertical></NavList>
 				</>
 			) : (
 				<Hamburger onClick={toggle} />
@@ -59,13 +74,16 @@ const NavHamburger = ({ links }) => {
 	);
 };
 
-const Navigation = ({ links }) => {
+const Navigation = ({ links, forceVertical, ignoreMobile }) => {
 	const isDesktop = useIsDesktop();
+	if(ignoreMobile) {
+		return <NavList links={links} vertical={forceVertical} ignoreMobile />
+	}
 	return (
         <>
             {
             isDesktop ? (
-                <NavList links={links} />
+                <NavList links={links} vertical={forceVertical} />
             ) : (
                 <NavHamburger links={links} />
             )

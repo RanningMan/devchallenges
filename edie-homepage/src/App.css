@@ -28,6 +28,12 @@ main h3 {
   font-weight: 700;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
 main article {
   margin: 5rem 0;
 }
@@ -85,8 +91,28 @@ button {
   width: 5rem;
 }
 
+.cardGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .card {
+  box-sizing: border-box;
   margin-top: 5rem;
+  width: 20rem;
+  padding: 2rem;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+}
+
+.card:hover button {
+  background: #2D9CDB;
 }
 
 .card__icon {
@@ -122,4 +148,270 @@ button {
 .card button {
   width: 7rem;
   font-size: 1rem;
+  margin-top: 1rem;
+  background: #828282;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work__card {
+  width: 20rem;
+}
+
+.work__card__img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.work__card__type {
+  font-weight: 300;
+  font-size: 12px;
+  color: #828282;
+  margin-bottom: 0;
+}
+
+.work__card__name {
+  margin-top: 0;
+  padding: 1rem;
+}
+
+.work__seeMore {
+  color: #2D9CDB;
+}
+
+.work__seeMore::after {
+  content: '➝';
+  display: inline-block;
+  margin-left: 1rem;
+  transform: scale(1.5);
+}
+
+.clients__teamIntro__meet {
+  color: #EB5757;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.clients__teamIntro__header {
+  padding-left: 1rem;
+}
+
+.clients__photoGroup {
+  display: flex;
+  flex-flow: column wrap;
+  height: 30rem;
+  width: 25rem;
+}
+
+.clients__photoGroup img {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  max-width: 50%;
+}
+
+.clients__photoGroup img:first-child {
+  margin-top: 5rem;
+}
+
+.clients__photoGroup img:nth-child(2) {
+  transform: scale(0.8);
+  margin-left: -1rem;
+}
+
+.clients__tag {
+  display: flex;
+  height: 5rem;
+}
+
+.clients__img {
+  border-radius: 1rem;
+  width: auto;
+  height: auto;
+  max-width: 20%;
+  max-height: 100%;
+}
+
+.clients__title {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.clients__title__company {
+  color: #828282;
+}
+
+#contacts {
+  background: #100E1D;
+  padding-top: 2rem;
+  margin-bottom: 0;
+}
+
+#contacts section,div,p,input {
+  margin: 0;
+}
+
+.contacts__social__media {
+  background: #100E1D;
+}
+
+.contacts__social__media__name {
+  padding: 0;
+  color: whitesmoke;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  padding-top: 2rem;
+}
+
+.contacts__social__media__tag {
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.email-light {
+  padding: 0;
+  margin: 0;
+}
+
+.email__label-light {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #828282;
+  margin: 0.5rem;
+  padding: 0;
+}
+
+footer {
+  background: #100E1D;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  padding: 0;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 13rem 0;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 72px;
+  }
+
+  main h2 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #333333;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .ourjob h1 {
+    width: 40%;
+  }
+
+  .heroImage {
+    width: 80vw;
+  }
+
+  .heroImage img {
+    width: 100%;
+    max-width: none;
+  }
+
+  section:not(.heroImage) {
+    width: 60vw;
+  }
+  
+  .story {
+    width: 35% !important;
+    align-self: flex-start;
+    margin-left: 13%;
+  }
+
+  .work {
+    justify-content: center;
+  }
+
+  .work__card {
+    width: 40%;
+    position: relative;
+  }
+
+  .work__card:nth-child(odd) {
+    margin-top: 4rem;
+  }
+
+  .work__seeMore {
+    position: absolute;
+    right: 0;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .clients__team {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .clients__teamIntro {
+    width: 40%;
+  }
+
+  .clients__teamIntro h3 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  .clients__clients {
+    width: 60% !important;
+    align-self: flex-start;
+    padding-left: 6rem;
+  }
+
+  #contacts {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5rem 0;
+  }
+
+  .contacts__social__media__name {
+    padding-top: 0;
+  }
+
+  footer {
+    padding: 0;
+  }
 }
