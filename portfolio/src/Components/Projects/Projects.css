@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
+
+.projects {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 100rem;
+    margin: 2rem;
+}
+
+.projects__header {
+    text-align: left;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px;
+    max-width: 100rem;
+}
+
+.projects__header__tagSelector {
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    border-radius: 0.75rem;
+    border: solid 1.5px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.projects__header__tagSelector:hover {
+    border-color: #2F80ED;
+    color: #2F80ED;
+}
+
+.projects__header__tagSelector-selected {
+    border: none;
+    background-color: #2F80ED;
+    color:antiquewhite;
+}
+
+.projects__header__tagSelector-selected:hover {
+    color: black;
+}
+
+.projects__content-vertical {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem;
+}
+.projects__footer__pageButton {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: solid 1px black;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.projects__footer__pageButton:hover {
+    border: none;
+    background-color: #2F80ED;
+    color:antiquewhite;
+}
+
+.projects__footer__pageButton-selected {
+    border: none;
+    background-color: #2F80ED;
+    color:antiquewhite;
+}

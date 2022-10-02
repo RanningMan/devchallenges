@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0");
+
+.profile {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px;
+    max-width: 100rem;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.profile__image-horizontal {
+    width: 30%;
+}
+
+.profile__image-vertical {
+    width: 100%;
+}
+
+.profile__image img {
+    border-radius: 1rem;
+    max-width: 100%;
+}
+
+.profile__details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.profile__details-horizontal {
+    width: 65%;
+}
+
+.profile__details-vertical {
+    width: 100%;
+}
+
+.profile__details div {
+    margin: 0.5rem 0;
+}
+
+.profile__details__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile__details__contacts__name div:first-child {
+    font-weight: 600;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.profile__details__contacts__name div:last-child {
+    font-style: normal;
+    color: #828282;
+}
+
+.profile__details__contacts__contact div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile__details__contacts__contact span {
+    margin-right: 0.5rem;
+}

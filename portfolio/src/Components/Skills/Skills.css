@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
+
+.skills {
+    box-sizing: border-box;
+    max-width: 80rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.skills__header {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.skills__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0.2rem 0;
+}
+
+.bar {
+    width: 60%;
+    height: 0.6rem;
+    border-radius: 1rem;
+    background-color:#4F4F4F;
+}
+
+.bar__colorPart {
+    background: #2F80ED;
+}
+
+.bar__colorPart-6 {
+    width: 60%;
+}
+
+.bar__colorPart-8 {
+    width: 80%;
+}
+
+.bar__colorPart-9 {
+    width: 90%;
+}

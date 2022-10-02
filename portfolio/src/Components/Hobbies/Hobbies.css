@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
+
+.hobbies {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hobbies-horizontal {
+    max-width: 100rem;
+}
+
+.hobbies-vertical {
+    max-width: 30rem;
+}
+
+.hobbies__header {
+    width: 100%;
+    text-align: left;
+}
+
+.hobbies__card {
+    max-width: 30rem;
+    margin: 0.5rem;
+}
+
+.hobbies__image {
+    object-fit: fill;
+    border-radius: 1rem;
+}
+
+.hobbies__image-horizontal {
+    width: 30rem;
+    height: 10rem;
+}
+
+.hobbies__image-vertical {
+    width: 100%;
+    height: 10rem;
+}
+
+.hobbies__content {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
