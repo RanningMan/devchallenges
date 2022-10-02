@@ -99,6 +99,10 @@ Learning:
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
 
+- [x] User story: I can see a page following the given design
+- [x] User story: I can see a page on mobile following the given design
+- [x] User story: I can go to certain locations by selecting links in navigation or footer
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
