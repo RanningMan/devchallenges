@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href="http://devchallenge-input.s3-website-us-west-2.amazonaws.com/?path=/story/devchallenge-input--default">
+    <a href="https://meek-biscuit-b13533.netlify.app/?path=/story/devchallenge-input--default">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 
 ## Overview
 
-Please visit https://github.com/RanningMan/devchallenges/tree/main/button-component to checkout the storybook.
+Please visit https://meek-biscuit-b13533.netlify.app/?path=/story/devchallenge-input--default to checkout the storybook.
 
 ### Built With
 
