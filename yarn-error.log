@@ -1,0 +1,31 @@
+Arguments: 
+  F:\nodejs\node.exe C:\Users\Ran\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Gradle\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;F:\Git\cmd;F:\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;F:\Ruby26-x64\bin;F:\Ruby31-x64\bin;C:\Users\Ran\.windows-build-tools\python27\;C:\Users\Ran\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;;C:\Users\Ran\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\Ran\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "F:\\Dev\\devchallenges"
+      at new MessageError (C:\Users\Ran\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\Ran\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Ran\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Ran\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13

@@ -1,0 +1,40 @@
+.stayList__intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+
+.stayList__intro span:last-child {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.stayList__stays {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.stayList__stayCard {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .stayList__stayCard {
+        width: 31%;
+    }
+
+    .stayList__stayCard:nth-child(3n + 2) {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+}
