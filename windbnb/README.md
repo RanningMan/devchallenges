@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://aesthetic-meringue-bf4dc7.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -39,7 +39,28 @@
 
 Please checkout the demo from Demo page.
 
+### Architecture:
+#### 1. Components: 
+App: states: city, country, guestNumber  
+  |__ header  
+  |     |__ logo  
+  |     |__ SearchBox: props: setCity, setCountry, setGuestNumber  
+  |__ main
+  |     |__ StayList: props: city, country, guestNumber; states: stayDetails (fetched data)
+  |              |__ StayListHeader: props: city, country; states: numberOfStays
+  |              |__ [ Stay ]: props: stayDetail 
+  |__ footer
+
+#### 2. Scalability:
+a. Make the App's state as context
+
 Learning:
+1. Fetch API  
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+2. If you want to move the last flex item to the right, simply add `margin-left: auto`  
+Checkout below links for details:  
+  https://medium.com/@iamryanyu/how-to-align-last-flex-item-to-right-73512e4e5912   
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment 
 
 ### Built With
 
@@ -53,12 +74,12 @@ Learning:
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
 
-- [] User story: I can see a list of properties
-- [] User story: I can see the property card with a name, rating, apartment type, and super host
-- [] User story: I can open the filter drawer
-- [] User story: I can filter properties by location and number of guests
-- [] User story: I can see the number of filtered items
-- [] User story: I can see pages following given designs
+- [x] User story: I can see a list of properties
+- [x] User story: I can see the property card with a name, rating, apartment type, and super host
+- [x] User story: I can open the filter drawer
+- [x] User story: I can filter properties by location and number of guests
+- [x] User story: I can see the number of filtered items
+- [x] User story: I can see pages following given designs
 
 ## Acknowledgements
 
