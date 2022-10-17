@@ -166,7 +166,7 @@ function App() {
 			setTasks(JSON.parse(localStorage.getItem('tasks')));
 			firstRender.current = false;
 		}
-	});
+	}, [tasks, setTasks]);
 	return (
 		<div className='app'>
 			<header className='app__header'>
