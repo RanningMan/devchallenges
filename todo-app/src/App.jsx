@@ -163,7 +163,7 @@ function App() {
 		if (!firstRender.current) {
 			localStorage.setItem('tasks', JSON.stringify(tasks));
 		} else {
-			setTasks(JSON.parse(localStorage.getItem('tasks')));
+			setTasks(JSON.parse(localStorage.getItem('tasks')) || []);
 			firstRender.current = false;
 		}
 	}, [tasks, setTasks]);
