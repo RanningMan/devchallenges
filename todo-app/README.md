@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://devchallenge-todoapp.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/todo-app">
       Solution
     </a>
     <span> | </span>
@@ -37,9 +37,58 @@
 
 ## Overview
 
+Please go to demo page for a live demo
+
 Learnings:
+1. There are two ways to make a group of li item horizontal and with no dots:
+    option 1: 
+    ```
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 
+    {
+        ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        li {
+            list-item-style: none;
+        }
+    }
+    ```
+    option 2:
+    ```
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 
+    {
+        li {
+            display: inline-block;
+        }
+    }
+
+    ```
+2. Event bubbling and capturing:  
+https://javascript.info/bubbling-and-capturing 
+3. How to make React useEffect hook not run on initial render  
+useRef to the rescue
+    ```
+    const firstRender = useRef(true);
+    useEffect(() => {
+        if (!firstRender.current) {
+            // do stuff
+        } else {
+            // do stuff
+            firstRender.current = false;
+        }
+    });
+    ```
 
 ### Built With
 
@@ -53,11 +102,11 @@ Learnings:
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories.
 
-- [] User story: I can add a new task
-- [] User story: I can complete a task
-- [] User story: I can toggle between All, Active and Completed
-- [] User story: I can remove one or all tasks under the Completed tab
-- [] User story (optional): Store the data in local storage that when I refresh the page I can still see my progress
+- [x] User story: I can add a new task
+- [x] User story: I can complete a task
+- [x] User story: I can toggle between All, Active and Completed
+- [x] User story: I can remove one or all tasks under the Completed tab
+- [x] User story (optional): Store the data in local storage that when I refresh the page I can still see my progress
 
 ## Acknowledgements
 
