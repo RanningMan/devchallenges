@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Qoute Generator</h1>
+<h1 align="center">Quote Generator</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="devchallenge-quote-generator.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/quote-generator">
       Solution
     </a>
     <span> | </span>
@@ -36,8 +36,13 @@
 
 ## Overview
 
-Learning:
+[screenshot](./Animation.gif)
 
+Learning:
+1. border-image: border-image does not work with border radius!
+2. conic-gradient: it's a circle like gradient color. 
+3. [background-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin): it sets the background should start from either border-box, padding-box, or content-box.
+4. [background-clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip): it sets the background should clip from either border-box, padding-box, content-box, or text.
 
 ### Built With
 
