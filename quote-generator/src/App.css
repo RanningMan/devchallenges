@@ -1,0 +1,110 @@
+.app {
+  width: 60%;
+  min-width: 768px;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  align-self: flex-end;
+}
+
+.app__header__button {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.randomQuote__button {
+  width: calc(100% - 3rem);
+  margin-left: 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 5rem 2.5rem;
+  color: #4F4F4F;
+}
+
+.randomQuote__button__content {
+  text-align: left;
+}
+
+.randomQuote__button__arrow {
+  display: none;
+}
+
+.randomQuote__button:hover {
+  background: #333333;
+  color: #F2F2F2;
+}
+
+.randomQuote__button:hover .randomQuote__button__arrow {
+  display: inline;
+}
+
+.randomQuote__button__author {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 0.5rem;
+}
+
+.randomQuote__button__genre {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;  
+  color: #828282;
+}
+
+.quoteList__author {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #333333;
+  padding-left: 4.5rem;
+}
+
+.quote {
+  border-left: 0.5rem solid #F7DF94;
+  padding-left: 4.5rem;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.loading {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: solid 0.5rem transparent;
+  background-image: linear-gradient(white, white), conic-gradient(#F7DF94, white);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  animation: 1s linear 0s infinite load;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
