@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://meek-dango-000b7c.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/country-quiz">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-Learnings:
+Used React to build this app. In order to reduce the network call, I used localStorage to save the response after the request was made for the first time.
 
 
 ### Built With
@@ -52,12 +52,12 @@ Learnings:
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories.
 
-- [] User story: I can see at least 2 types of questions: a city is the capital of.. or a flag belong to country..
-- [] User story: I can see select an answer
-- [] User story: I can see if my answer is correct or incorrect
-- [] User story: When I answer correctly, I can move on to the next question
-- [] User story: When I answer incorrectly, I can see my results and try again
-- [] User story: I can try again
+- [x] User story: I can see at least 2 types of questions: a city is the capital of.. or a flag belong to country..
+- [x] User story: I can see select an answer
+- [x] User story: I can see if my answer is correct or incorrect
+- [x] User story: When I answer correctly, I can move on to the next question
+- [x] User story: When I answer incorrectly, I can see my results and try again
+- [x] User story: I can try again
 
 ## Acknowledgements
 
