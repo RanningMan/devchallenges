@@ -1,0 +1,110 @@
+.largeCard {
+    width: 100%;
+    background:  #1E213A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 768px;
+}
+
+.largeCard * {
+    width: 100%;
+    color: white;
+}
+
+.largeCard__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.largeCard__image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.largeCard__foregroundImg {
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+}
+
+.largeCard__backgroundImg {
+    opacity: 30%;
+}
+
+.__searchButton {
+    width: 161px;
+    height: 40px;
+    background: #6E707A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__yourLocation__button {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.largeCard__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 3rem;
+    text-align: center;
+}
+
+.__climate {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #A09FB1;
+}
+
+.dot {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #88869D;
+    border-radius: 100%;
+}
+
+.__date, .__date * {
+    color: #88869D;
+}
+
+.__location, .__location * {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #88869D;
+}
+
+.__location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 48px;
+}

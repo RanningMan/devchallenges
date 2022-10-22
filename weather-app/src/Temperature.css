@@ -1,0 +1,46 @@
+.__temperature-lg {
+    color: #E7E7EB;
+    font-weight: 500;
+    font-size: 96px;
+    text-align: center;
+    padding-left: 3.5rem;
+}
+
+.__temperature-lg.celsius::after {
+    display: inline-block;
+    content: "\2103";
+    font-weight: 100;
+    color: #A09FB1;
+    font-size: 48px;
+}
+
+.__temperature-lg.fahrenheit::after {
+    display: inline-block;
+    content: "\2109";
+    font-weight: 100;
+    color: #A09FB1;
+    font-size: 48px;
+}
+
+.__temperature-sm {
+    color: #E7E7EB;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.__temperature-sm.celsius::after {
+    display: inline-block;
+    content: "\2103";
+    font-weight: 100;
+    color: #A09FB1;
+    font-size: 16px;
+}
+
+.__temperature-sm.fahrenheit::after {
+    display: inline-block;
+    content: "\2109";
+    font-weight: 100;
+    color: #A09FB1;
+    font-size: 16px;
+}

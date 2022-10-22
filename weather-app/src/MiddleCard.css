@@ -1,0 +1,33 @@
+.middleCard {
+    box-sizing: border-box;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #1E213A;
+    width: 328px;
+    height: 204px;
+    margin: 3rem auto;
+    color: #E7E7EB;
+}
+
+.middleCard__header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.middleCard__content span:first-child {
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 75px;
+}
+
+.middleCard__content span:last-child {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}

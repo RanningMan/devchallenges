@@ -1,0 +1,39 @@
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #1E213A;
+    width: 120px;
+    height: 177px;
+    color: #E7E7EB;
+}
+
+.smallCard__header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 100%;
+}
+
+.smallCard__content {
+    width: 60%;
+    text-align: center;
+}
+
+.smallCard__content img {
+    max-width: 100%;
+}
+
+.smallCard__footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.__temperature-sm:last-child {
+    color: #A09FB1;
+}

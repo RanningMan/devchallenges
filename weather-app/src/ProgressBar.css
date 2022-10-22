@@ -1,0 +1,30 @@
+.progressBar {
+    width: 229px;
+    height: 38px;
+    margin: 16px 0;
+}
+
+.progressBar__marks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBar__bar {
+    background: #E7E7EB;
+    border-radius: 80px;
+    height: 8px;
+}
+
+.progressBar__bar span {
+    display: block;
+    background: #FFEC65;
+    border-radius: 80px;
+    height: 100%;
+}
+
+.progressBar__unit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
