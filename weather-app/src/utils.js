@@ -117,7 +117,7 @@ export const getMonth = (month) => {
 };
 
 export const getMilesFromMeter = (meter) => {
-    return meter * 0.00062;
+    return (meter * 0.00062).toFixed(2);
 }
 
 export const getMphFromMeterPerSecond = (meter) => {
@@ -146,4 +146,12 @@ export const getWindDirectionFromDegree = (degree) => {
     } else {
         throw Error('Invalid wind degree');
     }
+}
+
+export const convertCtoF = (c) => {
+    return c * 1.8 + 32;
+}
+
+export const convertFtoC = (f) => {
+    return (f - 32) / 1.8;
 }

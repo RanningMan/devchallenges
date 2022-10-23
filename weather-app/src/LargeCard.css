@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .__yourLocation__button {
@@ -59,6 +60,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 8px;
+    cursor: pointer;
 }
 
 .largeCard__content {
@@ -107,4 +109,83 @@
 
 .icon {
     width: 48px;
+}
+
+.searchPanel {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.searchPanel * {
+    box-sizing: border-box;
+}
+
+.largeCard__cross {
+    text-align: right;
+    color: #E7E7EB;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.searchPanel__searchLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.searchPanel__icon {
+    width: 40px;
+    height: 3rem;
+    border: 1px solid #E7E7EB;;
+    border-right: none;
+    padding-top: 10px;
+}
+
+.searchPanel__input {
+    height: 3rem;
+    background: none;
+    border: 1px solid #E7E7EB;;
+    border-left: none;
+}
+
+.searchPanel__button {
+    height: 3rem;
+    width: 86px;
+    background: #3C47E9;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.searchPanel__resultList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.searchPanel__resultList__result {
+    margin: 3rem 0;
+    cursor: pointer;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.searchPanel__resultList__result:hover {
+    border: 1px solid #616475;
+}
+
+.searchPanel__resultList__result:hover::after {
+    content: '>';
+    color: #616475;
+}
+
+@media screen and (min-width: 768px) {
+    .largeCard {
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
 }

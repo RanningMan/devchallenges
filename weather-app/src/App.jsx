@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import './Temperature.css';
 import LargeCard from './LargeCard';
 import MiddleCard from './MiddleCard';
 import ProgressBar from './ProgressBar';
@@ -12,6 +13,8 @@ import {
 	getMilesFromMeter,
 	getMphFromMeterPerSecond,
 	getWindDirectionFromDegree,
+	convertCtoF,
+	convertFtoC,
 } from './utils';
 
 function App() {
@@ -20,11 +23,16 @@ function App() {
 	const [currentWeather, setCurrentWeather] = useState(null);
 	const [next5Weathers, setNext5Weathers] = useState([]);
 	const [unit, setUnit] = useState('f');
+	const [currentLoc, setCurrentLoc] = useState([]);
 
 	useEffect(() => {
 		const getCurrentLocation = navigator.geolocation.getCurrentPosition(
 			(coordinate) => {
 				setLocation([
+					coordinate.coords.latitude,
+					coordinate.coords.longitude,
+				]);
+				setCurrentLoc([
 					coordinate.coords.latitude,
 					coordinate.coords.longitude,
 				]);
@@ -38,7 +46,7 @@ function App() {
 
 	useEffect(() => {
 		const [lat, lon] = location;
-		const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=2a37090230976e883348b3004b90ee0b`;
+		const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`;
 		const fetchCity = async (url) => {
 			try {
 				const response = await fetch(url);
@@ -76,16 +84,51 @@ function App() {
 		return <ProgressBar progress={currentWeather.humidity} />;
 	};
 
+	const switchUnit = () => {
+		let temp = currentWeather.temp;
+		if (unit === 'c') {
+			temp = convertCtoF(currentWeather.temp);
+			setUnit('f');
+		} else {
+			temp = convertFtoC(currentWeather.temp);
+			setUnit('c');
+		}
+		setCurrentWeather({
+			...currentWeather,
+			temp,
+		});
+	};
+
 	return (
 		currentWeather && (
 			<div className='App'>
 				<LargeCard
 					location={city}
+					currentLoc={currentLoc}
 					temperature={parseInt(currentWeather.temp)}
 					unit={unit}
 					weather={currentWeather.weather}
+					updateLocation={setLocation}
 				/>
 				<div className='App__middleSmallCards'>
+					<div className='App__unitSwitcher'>
+						<button
+							className={`__temperature-sm celsius App__unitSwitcher__button ${
+								unit === 'c'
+									? 'unit-selected'
+									: 'unit-unselected'
+							}`}
+							onClick={switchUnit}
+						></button>
+						<button
+							className={`__temperature-sm fahrenheit App__unitSwitcher__button ${
+								unit === 'f'
+									? 'unit-selected'
+									: 'unit-unselected'
+							}`}
+							onClick={switchUnit}
+						></button>
+					</div>
 					<div className='App__fiveDaysPredict'>
 						{next5Weathers.map(({ max, min, id, localTime }) => {
 							return (

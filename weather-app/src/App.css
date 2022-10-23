@@ -11,6 +11,7 @@
   align-items: center;
   background: #100E1D;
   width: 100%;
+  padding-top: 2rem;
 }
 
 .App__fiveDaysPredict {
@@ -57,9 +58,32 @@
   align-items: center;
 }
 
+.App__unitSwitcher__button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.unit-selected {
+  background: #E7E7EB;
+  color: #110E3C;
+}
+
+.unit-unselected {
+  background: #585676;
+  color: #E7E7EB;
+}
+
 @media screen and (min-width: 768px) {
+  .App {
+    padding-top: 3rem;
+  }
+  
   .App__middleSmallCards {
     width: calc(100% - 768px);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
   }
 
   .App__fiveDaysPredict {
