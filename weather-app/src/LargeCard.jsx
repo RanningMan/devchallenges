@@ -22,7 +22,7 @@ function SearchPanel({ onCrossClick, resetLocation }) {
 	};
 
 	const onSearchButtonClick = async () => {
-		const url = `http://api.openweathermap.org/geo/1.0/direct?q=${searchContentRef.current}&limit=5&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`;
+		const url = `https://api.openweathermap.org/geo/1.0/direct?q=${searchContentRef.current}&limit=5&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`;
 		const resposne = await fetch(url);
 		const resposneJson = await resposne.json();
 		setCityLList(
