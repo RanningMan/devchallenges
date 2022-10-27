@@ -1,0 +1,522 @@
+{
+    "search_metadata": {
+      "id": "63574e8a2c68789d424c3a95",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/590fea85fae24318/63574e8a2c68789d424c3a95.json",
+      "created_at": "2022-10-25 02:48:42 UTC",
+      "processed_at": "2022-10-25 02:48:42 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=barista+new+york&ibp=htl;jobs&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/590fea85fae24318/63574e8a2c68789d424c3a95.html",
+      "total_time_taken": 1.99
+    },
+    "search_parameters": {
+      "q": "barista new york",
+      "engine": "google_jobs",
+      "google_domain": "google.com",
+      "hl": "en"
+    },
+    "jobs_results": [
+      {
+        "title": "Barista",
+        "company_name": "Seven Grams Caffe",
+        "location": "New York, NY",
+        "via": "via Indeed",
+        "description": "We’re obsessed with coffee and we’re looking for an experienced barista who shares that obsession. We roast every single bean we use, work on custom-made La Marzoccos, have three locations in Manhattan that serve the perfect cortados, and we take great pride in our carefully-selected bean portfolio. We’ve been featured in The New York Times, New York Magazine, Forbes, Eater, and Thrillist, and... are looking for a motivated Experienced Barista to join our team!\n\nWhat makes our dream Experienced Barista?\n\n- You can jump right in and make the perfect cortado. That likely means you have 1-year (or more) experience in a specialty coffee environment, and that you can operate a manual espresso machine like La Marzocco in your sleep.\n\n- You can produce some mean latte art and you’re super passionate about all-things-coffee.\n\n- You’re fun to work with and to be around. We’d be happy to wake up early in the morning to work a shift with you, and you’ll always provide our customers with a friendly and welcoming experience.\n\n- You’re proactive, invested in what you do, and take pride in your craft.\n\n- You have availability to work weekends.\n\n- Strong plus: Having a New York Food Handlers’ Certificate.\n\nThe compensation and perks we offer:\n\n- Highly competitive hourly compensation, which includes both hourly wage and shift tips\n\n- Serious room for growth. We’re always on the lookout for management material.\n\n- Benefits. We offer medical, dental and vision, and 401K plans.\n\n- Employee discount\n\nSounds like a fit? Let’s get to know each other better. Coffee’s on us.\n\nJob Types: Full-time, Part-time\n\nPay: $24.00 - $26.00 per hour\n\nBenefits:\n• 401(k)\n• Dental insurance\n• Employee discount\n• Health insurance\n• Vision insurance\n\nRestaurant type:\n• Bakery\n• Coffee shop\n\nShift:\n• Day shift\n• Morning shift\n\nWeekly day range:\n• Monday to Friday\n• Weekend availability\n\nAbility to commute/relocate:\n• New York, NY 10001: Reliably commute or planning to relocate before starting work (Required)\n\nExperience:\n• Specialty Coffee: 2 years (Required)\n\nLanguage:\n• English (Required)\n\nShift availability:\n• Day Shift (Required)\n\nWork Location: One location",
+        "extensions": [
+          "4 days ago",
+          "No degree mentioned",
+          "Health insurance",
+          "Dental insurance"
+        ],
+        "detected_extensions": {
+          "posted_at": "4 days ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJxcWZiMDBfNmUxSUFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdUlCQ3FJQlFVRjBWbXhpUkhocU5qUkJiMmd0VERJMWNtWmZNMlJSVkU4M1JtbElSbXhtYkV3MVl6TmlkbmxOYVZGWExVNVpjMDlXZHpkT1ZucE5OalZKTWpKT2VsUkZVbEJ2TFV0UGJYbFlVWGhMTkVwcWVGZzRiVTFrWmpGb1IyRjZNRkpHYmtKTGFIbFNVVmRzVG5Sc1dYTnZOMHMyZDNoUmFIRXlNemN0ZVVWc1ExOXFiamhrVW05UVkxVjZRbWcxZFdwck5VSjBSV05DU1VWeGFVdDVlbmRYUlZCM0VoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWldsc2FVSmFXa1pITnpCWWNVMXJhbFpDUVRabVV6a3hUV1Z4WnciLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xIiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6Ii5uRmcyZWJ7Zm9udC13ZWlnaHQ6NTAwfS5CaTZEZGN7Zm9udC13ZWlnaHQ6NTAwfUFwcGx5IGRpcmVjdGx5IG9uIEluZGVlZCIsImxpbmsiOiJodHRwczovL3d3dy5pbmRlZWQuY29tL3ZpZXdqb2I/ams9MDc1Y2I5ZjY5ZTQyZmU0NVx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+      },
+      {
+        "title": "Barista",
+        "company_name": "Ole & Steen",
+        "location": "New York, NY",
+        "via": "via KNWA & FOX24 Jobs",
+        "description": "WE WANT YOU TO JOIN THE 'HYGGE' AT OLE & STEEN\nDanish 'hygge' (hoo-gah) describes the feeling of well-being and coziness and what goes better with that than a well-brewed cup of coffee? So, if you are ready to juggle americanos, espressos and chai-lattes like a pro we got the job for you right here! (psst we will teach everything you need to know about coffee, so the most important thing is that... you are ready to learn).\n\nPOSITION OVERVIEW\nAs a Barista at Ole & Steen, you will join a dynamic, fun, and positive workplace bringing Danish pastries and coffee to NYC. Your main responsibility will be the coffee station, but we work as a team, and everyone is responsible for the quality of the guest experience. Whether providing a welcoming smile, perfecting the display and sale of our products, ensuring the cleanliness and ambience of our bakery, and making sure everyone has a happy environment to enjoy as a guest or colleague.\n\nThe right person for this role is a service-oriented \"people person\", who brings personality and enthusiasm to their work. You enjoy the buzz of working in fast-paced environments and seek prep work during slower times. You have a positive attitude, are able to proactively manage your time, and love finding ways to help out wherever you can.\n\nPERSONAL QUALITIES\nYou will be the ambassador for Ole & Steen reflecting its unique culture, positive attitude, and excellent standards always. Therefor we have a few things we hope you can recognize:\n\nYou are an enthusiastic and service minded person\nYou will \"live\" our values-based culture of excellence teamwork and of exceeding expectations at all times\nYou want to learn about our products (did you know that almost all products have their own unique story?)\nYou ensure all customer enquiries are dealt with in a professional, helpful, and polite manner. You identify costumers needs and respond quickly and enthusiastically to those needs\nYou are keen to learn, evolve and try new ideas that fit within the Ole & Steen Brand\nYou have a positive attitude and can proactively manage your time, adapting your approach to suit both busy and quiet times\n\nQUALIFICATIONS & REQUIREMENTS\nYou are passionate about being a part of a positive working environment that encourages team spirit, awareness and a genuine love for food, coffee, and service. Your main responsibilities will be the coffee, but we work as a team and sometimes you must assist in other tasks too.\n\nMaintain regular and consistent attendance and punctuality\nAvailable to work flexible hours that includes early mornings, evenings, weekends, and holidays\nMeet store operating standards and policies\nEngage with and understand our customers, including responding customer needs through clear and pleasant communication\nAvailable to perform different tasks within the store during each shift\nExceptional customer service skills\nAbility to learn quickly\nBarista experience is a plus (but not required)\n\nBARISTA EDUCATION AND A LOT OF OTHER OPPORTUNITIES At Ole & Steen you will get a versatile job with professional colleagues, and exciting individual development possibilities. We are a rapidly growing business, creating career opportunities across the organization.\n\nWe believe that with dedication, passion, and hard work, you can reach whatever you dream of, and we have a sincere interest in constantly challenging and uplifting each other across professional competencies and departments.\n\nWe have designed a Barista training program that will educate you in the art of coffee and teach you everything you need to know to give our customers the best experience.\n\n_\"At Ole and Steen there's a great opportunity to learn all about the different coffees and understanding what goes into each and every cup we proudly serve to our customers\" _Daniel Vogel, Barista at Ole & Steen, Bryant Park\n\nBENEFITS\nCompetitive hourly rate starting at $16.00\n50% discount at any Ole & Steen location (US, UK, and DK)\nFree meal whilst working\nUniforms provided\nBarista education program\nLearn new skills and grow with us - endless possible promotions\nFull time or part time hours\nOle & Steen offers flexible scheduling and opportunities for paid time off\nAccrue 40 hours paid Holiday on your first year and 80 hours on your second year\nCommuter benefits\nOption to participate in healthcare program 75% covered by the company\n\n_\"Working at Ole & Steen is so much more than a job, we become friends and care for one another. People here are like my second family! \" _Kirstine Grøn, Learning and Development Manager\n\n_Ole & Steen is proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran. Qualified applicants with criminal histories will be considered for employment in a manner consistent with all federal state and local ordinances._\n\nABOUT OLE & STEEN\nOle & Steen was founded in 1991 by the Danish bakers Ole Kristoffersen and Steen Skallebæk and originally called Lagkagehuset or \"The Layer Cake House\". Ole & Steen is pioneer in the resurgence of artisanal and handcrafted baking practices in Denmark. In 2008 the two bakers joined forces and became the organization we know today.\n\nWe have been Denmark's favorite bakery for more than 30 years, serving delicious Danish breads, pastries, cakes, single estate coffee and food. We opened our first bakery on Union Square in 2019 to huge acclaim and fantastic reviews and we're continuing our exciting growth journey - we currently operate 3 retail stores across NYC, and we have plans to grow and expand over the coming years!\n\nHeart-Made: Ole & Steen has always believed that if something is worth doing, it's worth doing properly. From hospitality and recipe development, to store design and sustainability initiatives, everything we do we throw ourselves into 100% with love and attention.\n\nRustic, Refined: We've always been dedicated to taking rustic recipes and refining them. Delivering the simple beauty of Danish baking styles with an extra edge of quality, we elevate the taste to new heights through tirelessly perfected techniques and the finest quality ingredients we can get our hands on.\n\nEveryday Special: From the feeling you get when you step foot through our doors, to the delicious treats you bring back for your loved ones, we want Ole & Steen to be that extra special spark in your day. We go above and beyond to offer genuine, kind service.\n\nAt Ole & Steen, every day joy starts with our team members. The people turning on the lights, baking our breads, and setting the tone for a great day. People are det heart of who we are.\n\nWe have the ambitious goal to become the world's most loved bakery. Therefore, we need passionate employees, who want to be a part of our rapidly growing business. We seek the unique experience through excellent service, and we want to make sure that everyone who enter our doors feels the atmosphere of the Danish \"Hygge\".\n\nJob Type: Full-time\n\nPay: $17.00 per hour",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwb3UjWH7VDVDnVkeibbtjfyba7h6bC9_CwCSy&s=0",
+        "extensions": [
+          "2 days ago",
+          "17 an hour",
+          "Full-time",
+          "No degree mentioned",
+          "Health insurance",
+          "Paid time off"
+        ],
+        "detected_extensions": {
+          "posted_at": "2 days ago",
+          "schedule_type": "Full-time",
+          "salary": "17 an hour"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJyUGdhdzJuNGVqWUFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdmNCQ3JjQlFVRjBWbXhpUkUxM1NuZ3hXR2xDTlZoMFRVa3dVek5LYlc5UVZtVm1lbVV0VEhOVmJEUkdiRFJqVUVaWlJFVkNSVlpaVmtaSFkxUklMVVp4WlV4UGVrTm9la1l0VldKUlJWRkRRelEzT1RkVFVEVjZVMHhJTlZOb1dYUkxZazlXUjFGTVVXTklPR0pDTjBzMU1EWkdkblpsVldoRk1WbGxUekpzVVVSWmNsTnhUbXBFWTFCNVRrUlhTV1JwYWpoMVFuazFMVE5YYUhkV1YwZFhibEJ5UkVabVp6bE5ibkJvWVRjNGRsRmZZMDh6UjJoMFZIWnpFaGRwTURWWVdUWjZia1J3ZFZGM1ltdFFhV0YxTUdsQll4b2lRVVJWZVVWSFprVjFTa3R0VVRkTVYzUXlMVmxqWW1oeGVXbEVUekpsWTNSYWR3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBLTldBIFx1MDAyNiBGT1gyNCBKb2JzIiwibGluayI6Imh0dHBzOi8vam9icy5ud2Fob21lcGFnZS5jb20vam9icy9iYXJpc3RhLW5ldy15b3JrLzc1MTM0NDc1NC0yLz91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+      },
+      {
+        "title": "Barista",
+        "company_name": "L'Adresse",
+        "location": "New York, NY",
+        "via": "via Culinary Agents",
+        "description": "Providing a fresh approach to Contemporary American cuisine, L’ADRESSE serves up seasonal fare with European touches in the heart of New York City’s Bryant Park and Nomad. Our name was chosen to convey the restaurant’s welcoming environment, as it truly is “the address” for friends, colleagues and tourists to meet up at any time of day. At L’ADRESSE we serve innovative breakfast, brunch, lunch and dinner menus, as well as pâtisserie created on site in the classic French tradition. We hope that our convivial atmosphere and laid-back attitude will always make guests feel welcome.\n\nWe are looking for a passionate BARISTA to join our diverse team. This is a great opportunity for someone who wants to grow in the hospitality industry. To apply please send in your resume. We look forward to meeting you soon!",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_PqiLwjNqfbngODVsCXp--Tmn9sXL9LzfSHE2wEU&s",
+        "extensions": [
+          "1 day ago",
+          "Full-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "posted_at": "1 day ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiIza1FKTmpka21WZ0FBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdUlCQ3FJQlFVRjBWbXhpUTJ4elRsSlVWM05DZW1zNFRFWldNMVYwYm10bFZqRnRTV3B1WWpaRlkzTndaMDVWYjJsVWNYZHNkV0YzYkVKSFRGRjFOVk4wYWxReU5YVjFSbGhVVUdVNFpEaDFWVTk2U0U1eGRGRktUbFY0VDJGU1JucHVTbEZmUkVweUxUbFRWV1EyU0VWRGIzQnZMVUozZGxSblJHWnJlREpUTjFJd1VYTnlNbEZWYkcxUFFuVTVkVWhTYm5SS2MxaG5aRU5MVjBwbFVtUjJWR3Q0Um5aUkVoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWkVRd1RIUlNTVVI1YzBwSFlqSkJUbDloWDFRNWRscGhjMWRzVVEiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY180IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IGRpcmVjdGx5IG9uIEN1bGluYXJ5IEFnZW50cyIsImxpbmsiOiJodHRwczovL2N1bGluYXJ5YWdlbnRzLmNvbS9qb2JzLzQxMjk0OS1CYXJpc3RhP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+      },
+      {
+        "title": "Barista",
+        "company_name": "Michaeli Bakery",
+        "location": "New York, NY",
+        "via": "via Indeed",
+        "description": "We're looking for an experienced barista to join us part time. The ideal candidate should be responsible, welcoming and upbeat. Experience as a barista in a bakery and cafe setting is a plus.\n\nJob Type: Part-time...\n\nPay: $15.00 - $30.00 per hour\n\nBenefits:\n• Employee discount\n\nRestaurant type:\n• Bakery\n• Coffee shop\n\nWeekly day range:\n• Monday to Friday\n• Weekend availability\n\nAbility to commute/relocate:\n• New York, NY 10002: Reliably commute or planning to relocate before starting work (Required)\n\nExperience:\n• Guest services: 1 year (Preferred)\n• Barista: 2 years (Required)\n\nShift availability:\n• Day Shift (Preferred)\n• Night Shift (Required)\n\nWork Location: One location",
+        "extensions": [
+          "3 days ago",
+          "Part-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "posted_at": "3 days ago",
+          "schedule_type": "Part-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJSbE9TbkVzdVFZVUFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdUlCQ3FJQlFVRjBWbXhpUTNsUlgxTnJTRVpxVmpac01GbE5MWGd0YkZoZlRFOWFVbFJEVEdvNVMzQTNOMjFZTW0xWk4waENWbmRyWkRWclZuQXhZMHR5WkdKdlFXOWhUR3h0V0ZkWE0wVXdWMDU1V1ZKTlREZHRiR1ZrY0VvNGJVeFdkREpyVlVwQ2IwRmlXR3hVVGt0cVVGRTBXbk5rYWpOcVEwbHRXV0p1V2pSRWFucGlWbE56V1VaRWEyaEJaekJFVUZrM2NHZFFiWHBaWmtsdk5sRmhWRGROTFZsM0VoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWlZKemNFSkdXR0ZqZVUxemVESkhjMW95VlRGcVRuVnFjVGxuVVEiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY181IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IGRpcmVjdGx5IG9uIEluZGVlZCIsImxpbmsiOiJodHRwczovL3d3dy5pbmRlZWQuY29tL3ZpZXdqb2I/ams9Mjg2NWFmMTVjOGI4ZWEzYlx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+      },
+      {
+        "title": "Barista",
+        "company_name": "CAFE",
+        "location": "New York, NY",
+        "via": "via LinkedIn",
+        "description": "Café by day and natural wine bar by night, right in the heart of the West Village and Boerum Hill (Brooklyn). We’re looking for enthusiastic and experienced baristas to join our team. We love flexibility in experience, someone who is knowledgeable about coffee and can make a beautiful cappuccino, but who also can handle a busy floor and speak to natural wine. \n\nBaristas Take On Responsibilities... Including But Not Limited To\n• Provide excellent customer service to all guests\n• Dial in espresso and other brew methods to meet and maintain quality standards\n• Maintain work area and equipment to a high degree of cleanliness\n• Execute pre-service/closing shift duties\n• Exhibit a familiarity with daily menus, participate in service/culinary & wine/coffee education sessions to remain current/knowledgeable about our products\n\nWe’re Looking For\n• Passion for hospitality\n• Enthusiastic love of coffee\n• Previous barista experience & latte art ability\n• Detail oriented & reliable\n• Natural wine/server experience a plus \n\nThis position is based in New York City and will report directly to the General Manager.  Please reply with a resume if interested. \n\nMore detail about Cafe Kitsune New York part of Cafe Kitsune, please visit https://culinaryagents.com/entities/283932-cafe-kitsune-new-york",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn5bMMNtmrGlYuJVI5iDbGJ19jdFvP1POgu3FR7lk&s",
+        "extensions": [
+          "5 days ago",
+          "Full-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "posted_at": "5 days ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJCeXI5dXdaanNXNEFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdUlCQ3FJQlFVRjBWbXhpUTNwV2J6Rm1NemN6YjJGNFZ6ZFlibkUxWm1Vd2QxWkxTRVp2VkcxMVVXeDVVVzV2ZGxORGVsTjRSekowUWpaYWMwWkNMVFpvVG5ac1pFRTNNMlYyWTNOeFdXaGxaR2czWlc1U1lqZFpObk5NZGpOU1NrbERVMnhXUnpsR2J6VjVOMUZaY2tOeE5URjNVSGhOVjJOalkxbDFVRUpIVmpGWlR5MUVhMjU0VFVOTk9XNXBUbkV0V2pCQ01HaGlXUzF4UVhwQlFrbzJkRFl3UkVsM0VoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWm01RmFYazVabWQxV0Y5SlJFUk1UM2haVURWNWVHWm1ZMmxxWnciLCJmY3YiOiIzIiwiZmNfaWQiOiJmY182IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIExpbmtlZEluIiwibGluayI6Imh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9qb2JzL3ZpZXcvYmFyaXN0YS1hdC1jYWZlLTMzMjI5MjUxNzA/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+      },
+      {
+        "title": "Barista",
+        "company_name": "El Condor Coffee Roasters",
+        "location": "New York, NY",
+        "via": "via Glassdoor",
+        "description": "El Condor Coffee Roasters is a new and trendy cafe in the heart of West Village. We are looking for skilled baristas to join our flagship team! El Condor is an upscale environment that focuses on bringing hospitality to the cafe scene. The specific candidate we are looking for is mindful, caring, and has a strong sense of competence.\n\nRead more about us in recent publications like Eater... Thrillist, Forbes, and more!\n\nSkillsets were looking for:\n\n-Extremely clean and organized\n\n-High level of hospitality (Greet customers as they walk in, ensure they leave satisfied)\n\n-Can handle a high-volume work environment and stay calm when there is a line out the door.\n\n-High level of teamwork( communication is key between FOH and BOH)\n\n-Mindfulness and an ability to perfect their workflow.\n\n-Dialing in Espresso\n\n-Coffee experience (latte art, cupping, roasting)\n\n-Wine and beer knowledge\n\n-Dedication, willingness to grow with the company\n\nJob Types: Full-time, Part-time\n\nPay: From $20.00 per hour\n\nBenefits:\n• Employee discount\n• Paid time off\n• Paid training\n\nRestaurant type:\n• Bar\n• Coffee shop\n\nShift:\n• 8 hour shift\n• Day shift\n• Evening shift\n• Night shift\n\nWeekly day range:\n• Monday to Friday\n• Weekend availability\n\nAbility to commute/relocate:\n• New York, NY 10014: Reliably commute or planning to relocate before starting work (Required)\n\nExperience:\n• Guest services: 2 years (Preferred)\n• Baristas: 2 years (Required)\n\nShift availability:\n• Day Shift (Preferred)\n• Night Shift (Preferred)\n\nWork Location: One location",
+        "extensions": [
+          "7 days ago",
+          "Full-time",
+          "No degree mentioned",
+          "Paid time off"
+        ],
+        "detected_extensions": {
+          "posted_at": "7 days ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJTSGNJMHhidmtpWUFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdmNCQ3JjQlFVRjBWbXhpUVVselRrNVBaVkZoTFdKa1NFUkxSV0pPVjNNdFUzVTJiMjFKTFZkMWNGbEVlbHB0WDNoak16WmFRM2RUUTFabVVpMTFSVE5OYzJoMlJWQjJRVmhQZEZGc1gwbE1ObVJUWW1JME1uaEVaSGRNTm5wbVRESjJkelZMVjI1Mk1tMURWSFZETlhvNU1FcGZSVlpLVWpJMlptTlljV0ZUVUROM1FXcHpNblpOYzBKT2J6SlVhM1puYm5kemNqWlVUVTFuWVUxbmRuY3dhSGxWTlZjM0xWZGZhRXROY201VlRTMUxlamhEV1VaWlRIZHZFaGRwTURWWVdUWjZia1J3ZFZGM1ltdFFhV0YxTUdsQll4b2lRVVJWZVVWSFl6SkxSVjlGU0RSR1JUSk9OM1pLVjFoNlNsQjJiM0ozYlZZemR3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfOCIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBkaXJlY3RseSBvbiBHbGFzc2Rvb3IiLCJsaW5rIjoiaHR0cHM6Ly93d3cuZ2xhc3Nkb29yLmNvbS9qb2ItbGlzdGluZy9iYXJpc3RhLWVsLWNvbmRvci1jb2ZmZWUtcm9hc3RlcnMtSlZfSUMxMTMyMzQ4X0tPMCw3X0tFOCwzMy5odG0/amw9MTAwODIxNjExNTQyNFx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+      },
+      {
+        "title": "Barista",
+        "company_name": "Bird & Branch",
+        "location": "New York, NY",
+        "via": "via Glassdoor",
+        "description": "Bird & Branch is a coffee shop located in Hell’s Kitchen at 359 W 45th St (@ 9th Ave).\n\nOur company’s primary focus is to provide a job-training program for people with barriers to employment and we execute that via work in specialty coffee. Our shop has been open since February 2018, we serve Saint Frank Coffee alongside house-made baked items and we have some wonderful teammates...\n\nIdeally, applicants are interested in our mission as a social enterprise as we need baristas on bar who can model a great work environment for trainees and are interested in pursuing excellence in both the products that we serve and the customer service we give.\n\nWhat you can expect at B&B:\n– We’re a mom & pop shop, so you’ll have plenty of opportunities to work with us and communicate with us\n– We appreciate feedback and schedule regular meetings with all team members to provide ample space for discussion\n– We have monthly team meetings to review shop updates, hold trainings on various topics, experiment with drink ideas, or just hangout\n\nWork Location:\n• One location\n\nWork Remotely\n• No\n\nJob Types: Full-time, Part-time\n\nPay: $16.00 - $18.00 per hour\n\nBenefits:\n• Disability insurance\n• Employee discount\n• Paid sick time\n• Paid training\n• Referral program\n\nRestaurant type:\n• Coffee shop\n\nShift:\n• Day shift\n\nWeekly day range:\n• Weekend availability\n\nCOVID-19 considerations:\nAll staff are required to be vaccinated and it is optional for staff and customers to wear masks inside the shop.\n\nExperience:\n• Guest services: 1 year (Preferred)\n• Barista experience: 1 year (Preferred)\n\nWork Location: One location",
+        "extensions": [
+          "2 days ago",
+          "Full-time",
+          "No degree mentioned",
+          "Paid time off"
+        ],
+        "detected_extensions": {
+          "posted_at": "2 days ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIiwiaHRpZG9jaWQiOiJTQkpjX29iTXBKa0FBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdUlCQ3FJQlFVRjBWbXhpUTBwV05sSnFWM1ZTZDI5aFEyRkVaWFJYU21wYWNHYzFaakZKYm1KbGJHZ3dSRmsxZVVwR2VHWnpOa3huV1RkbWRFYzBNVE5XZGxjMFdEbDRZekJJVkZoaFZIaHNNbWxJU20wMk0yeFRNR3hSV2paWE5tbG9TMnhvUVVOQlgzVk5OVXBDY2tscExVUnhUakpRVWt0MWVGTXhaRE5UYlc4MmFqQjNZbFZ0TTJVdE1reE5kR1pLVUdaMlIxOVRhM2hoYVc5Qlp6bFRURXBKV0hSUkVoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWTBSUFUzRkRkVmhRT1RWbVpXTkZhVlYwUVROV01HRndaR3M1WnciLCJmY3YiOiIzIiwiZmNfaWQiOiJmY185IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IGRpcmVjdGx5IG9uIEdsYXNzZG9vciIsImxpbmsiOiJodHRwczovL3d3dy5nbGFzc2Rvb3IuY29tL2pvYi1saXN0aW5nL2JhcmlzdGEtYmlyZC1hbmQtYnJhbmNoLUpWX0lDMTEzMjM0OF9LTzAsN19LRTgsMjMuaHRtP2psPTEwMDgyMjc5ODI0NTJcdTAwMjZ1dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+      },
+      {
+        "title": "Barista (W8th Cafe)",
+        "company_name": "Stumptown Coffee",
+        "location": "New York, NY",
+        "via": "via CareerBuilder",
+        "description": "Hi, we're Stumptown. We're a coffee company, and we source, roast, taste, package, sell, deliver, brew and serve what we firmly believe is the best coffee on the planet. We are progressive, open, and evolving but uncompromising in our commitment to quality. We work hard, collaborate constantly and have fun every day. We pride ourselves on our passion for excellence, our spirit of generosity and... on the long-term relationships we nurture as we guide our coffee from the good hands of our hardworking partners at origin into the cups of our customers. If you love coffee, people and getting things done, this just might be the place for you.\n\nSummary\n\nMany hands play an important role in Stumptown's commitment to high-quality coffee. Our Baristas are entrusted with the responsibility of ensuring the quality of our coffee is actualized, as our partners at source intended, from bean to cup. Stumptown Baristas contribute to the success of their caf by consistently providing exceptional hospitality, and quality beverages and products. Baristas are expected to pursue growth of their coffee knowledge and develop passion for the craft. When we are operating at our best, every barista models the Stumptown values of continuous growth, best in class hospitality, and quality in all things.\n\nEssential Functions\n• Prepare espresso beverages for customers, meeting Stumptown's quality standards.\n• Deliver an exceptional customer experience; Proactively engage with customers to understand and meet their needs - go the extra mile to make their day with a perfect cup of coffee.\n• Develop a thorough understanding of our coffees, teas, foods, merchandise and promotions to drive sales, service and have knowledgeable conversations with customers.\n• Maintain a clean and organized environment to customers and coworkers in all areas of the store.\n• Demonstrate willingness and openness to change and share your ideas on how to make your store even better.\n• Taste coffee, tea and specialty beverages regularly to maintain familiarity with product and quality standards.\n• Accurately process transactions in the POS system and reconcile till.\n• Practice self-reflection and ask for feedback on performance; know and hone your personal strengths and opportunities for improvement.\n• Responsible for day-to-day activities that embrace sustainability and reduce the impact at your facility should be followed.\n• Follow SOP's for minimizing waste, conserving energy and limiting water usage and share ideas on how to improve processes whenever possible.\n• Other duties as assigned.\n\nQualifications\n• Minimum 1 year speciality coffee experience required\n• Demonstrated passion and enthusiasm for coffee as well as a desire to educate others about our coffee.\n• Ability to deliver exceptional hospitality in a personal and professional manner.\n• Strong attention to detail and healthy respect for cleanliness and sanitation.\n• Flexibility and availability in schedule is required.\n• Able to commute between cafes.\n• Health department license or certification as required by state or local requirement.\n• Great communication skills both with employees and customers of all backgrounds.\n• Open to feedback and constantly striving to improve.\n• Ability to multi-task with ease.\n• Early AMs, nights, weekends and extreme reliability required.\n\nPhysical Demands\n• Stand and walk-must be able to stand for shifts and move about the caf.\n• Perform repetitive motion with the hands, wrists and forearms to operate espresso machinery.\n• Taste/Smell - ability to detect and perceive smell of coffee.\n• Talk/hear - frequently communicates with customers.\n• Carry weight, lift - lift up to 5 pounds frequently and up to 50 pounds occasionally\n\nWork Environment\n• Work is performed at the cafe, interfacing with the public\n• The work environment can be noisy\n\nAt Stumptown, we welcome diversity and celebrate that our communities include individuals from all backgrounds, identities, and walks of life. We strive every day to foster an environment of inclusion, diversity, equity, and accessibility that supports our employees, customers and communities. We know that embracing diversity makes us stronger, enriches our culture, and allows us to grow together. We encourage candidates with diverse backgrounds, identities, skills, and abilities to apply. If you require reasonable accommodation in completing the application, interview or assessment process, please direct your inquiries to a member of the People team at [Email available when viewing the job] or by calling [Phone number shown when applying]. We are proud to be a B Corp and equal opportunity employer",
+        "extensions": [
+          "2 days ago",
+          "Full-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "posted_at": "2 days ago",
+          "schedule_type": "Full-time"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIChXOHRoIENhZmUpIiwiaHRpZG9jaWQiOiIyUkxTRXBOWi10RUFBQUFBQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFdmNCQ3JjQlFVRjBWbXhpUW5SSllqRkZYMGhHY1VSUlIxTklVMUpFZVhaVWNWSk1VbXRFVW1kaFlubGhabTVJYldKVGJqUk1OVEEyTldGbGNtSnphbmRMTjJjNFkyWk1WMHcwYjBsSVNWUnJTVzVLUTFreFJqUlBVMFpIVURRM1NIQjZSVXcyVmxOMkxUTXdiVVp6WTFoWVMwZHdUVVJXZW0xeGFUUXRVbnBZTFZaTWExVkdVVE5XWjBaQmVHOUpWemh0ZEdWelMyZzVPVVZrVG5nM04zQjBPVTFsWmtWTlFtOXJZamxJZGpKMFpqTlZhekZ5TjJkM1QwZzRFaGRwTURWWVdUWjZia1J3ZFZGM1ltdFFhV0YxTUdsQll4b2lRVVJWZVVWSFkwbEJWMDFzVlRaWlZtOVZOMjF5WlhGeGVHazNiMWxRY1hBdFFRIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMTAiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gQ2FyZWVyQnVpbGRlciIsImxpbmsiOiJodHRwczovL3d3dy5jYXJlZXJidWlsZGVyLmNvbS9qb2IvSjNQOEdLNjA4MjJIMkREQlJCWD91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+      },
+      {
+        "title": "Barista. Job in New York My Valley Jobs Today",
+        "company_name": "El Condor Coffee Roasters",
+        "location": "New York, NY",
+        "via": "via My Valley Jobs Today",
+        "description": "El Condor Coffee Roasters is a new and trendy cafe in the heart of West Village. We are looking for skilled baristas to join our flagship team! El Condor is an upscale environment that focuses on bringing hospitality to the cafe scene. The specific candidate we are looking for is mindful, caring, and has a strong sense of competence.\n\nRead more about us in recent publications like Eater... Thrillist, Forbes, and more!\n\nSkillsets were looking for:\n\n-Extremely clean and organized\n\n-High level of hospitality (Greet customers as they walk in, ensure they leave satisfied)\n\n-Can handle a high-volume work environment and stay calm when there is a line out the door.\n\n-High level of teamwork( communication is key between FOH and BOH)\n\n-Mindfulness and an ability to perfect their workflow.\n\n-Dialing in Espresso\n\n-Coffee experience (latte art, cupping, roasting)\n\n-Wine and beer knowledge\n\n-Dedication, willingness to grow with the company\n\nJob Types: Full-time, Part-time\n\nPay: From $20.00 per hour\n\nBenefits:\nEmployee discount\nPaid time off\nPaid training\nRestaurant type:\nBar\nCoffee shop\nShift:\n8 hour shift\nDay shift\nEvening shift\nNight shift\nWeekly day range:\nMonday to Friday\nWeekend availability\n\nAbility to commute/relocate:\nNew York, NY 10014: Reliably commute or planning to relocate before starting work (Required)\n\nExperience:\nGuest services: 2 years (Preferred)\nBaristas: 2 years (Required)\n\nShift availability:\nDay Shift (Preferred)\nNight Shift (Preferred)\n\nWork Location: One location",
+        "extensions": [
+          "5 days ago",
+          "20 an hour",
+          "Full-time",
+          "No degree mentioned",
+          "Paid time off"
+        ],
+        "detected_extensions": {
+          "posted_at": "5 days ago",
+          "schedule_type": "Full-time",
+          "salary": "20 an hour"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhLiBKb2IgaW4gTmV3IFlvcmsgTXkgVmFsbGV5IEpvYnMgVG9kYXkiLCJodGlkb2NpZCI6IjQxS2hRZDExZVU0QUFBQUFBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVxSUNDdUlCUVVGMFZteGlRbVpXUmtvM1N6WmhjRWxKWnpjeWVrbFJMVzQyTVhrdFYyaE1PV04yWm5ZelpFWlRhV1IzT0cxdFJVb3lXbkozTjFkMFptaDVjbDlQVld4SVRGcDZaMWR2ZFhrNVRqQTRRelpKYUVWclJEQjBMVWhOUTJwTVlsTk5ObTkwWW1SUFpTMUdUMVJ6WVdGa1JWVk9NMGxtV1dRNVlWRnhZM1kxUlc5WFZrWnpYMUUxVWtWd1dsSXpORFI0Yld0Q2FFNUlNR3QxTmxObE5HOHhZVTF6ZEZnM04yUlJWMVpVZDJKT0xVNHpVMlZPYTJkTmNGUlhYMDVUWkc5c0xUSklUVWRmTVZCTFYwWlpPRE5zTlRSbFJVZFRYMXA2TjFNelVuTnBlVWczWnhJWGFUQTFXRmsyZW01RWNIVlJkMkpyVUdsaGRUQnBRV01hSWtGRVZYbEZSMlpyVVV0emJrbzBYMjB0T0dFNGVWTXllWGRDWmtkWVZrdHpaSGMiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xMiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBNeSBWYWxsZXkgSm9icyBUb2RheSIsImxpbmsiOiJodHRwczovL2pvYnMud2tibi5jb20vam9icy9iYXJpc3RhLW5ldy15b3JrLzc0NzI1NDIyOS0yLz91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+      },
+      {
+        "title": "Barista - New Astoria West Building",
+        "company_name": "The Hire Channel",
+        "location": "New York, NY",
+        "via": "via WANE Jobs",
+        "description": "Our client is an operator of multiple coffee shops that offer full coffee menus + 'Grab & Go' food options. Their newest venue 'THE DAGNY' is within a brand new, high-end residential building on Astoria's waterfront (Queens, NY).\n\nThis opening is to service the coffee bar as a Barista. This is a full-time position...\n\nHourly Pay - $17/HOUR + tips.\n\nStart date for this locations: ASAP.\n\nPaid training to be offered a few days prior to starting if needed.\n\nOne and done video interviews taking place in the next 3-5 business days. Offers being made on the spot .\n\nThis is an hourly position ideal for a customer-centric, experienced barista that is looking for steady work, in very new and modern cafe space!\n\nREQUIRED SKILLS/ RESPONSIBILITIES\n\nOpening/Service/Closing duties\n\nGreeting customers in a friendly manner and taking food and drink orders.\n\nPreparing and serving various beverages (Inclusive of a full espresso menu).\n\nPreparing and serving food items such as soups, sandwiches and pastries ('grab and go').\n\nAnswering customers' questions about, and recommending menu choices.\n\nTaking payment from customers.\n\nMaintaining inventory and equipment by cleaning & troubleshooting.\n\nKeeping the work environment sanitary and organized.\n\nOFFER\n\nInterested? Apply - the company offers a quick and efficient hiring process that is easy and straight forward.\n\nJob Type: Full-time\n\nPay: $17.00 per hour\n\nShift:\nDay shift\nEvening shift\nNight shift\nWeekly day range:\nMonday to Friday\nWeekend availability\n\nWork Location: One location",
+        "extensions": [
+          "4 days ago",
+          "17 an hour",
+          "Full-time",
+          "No degree mentioned"
+        ],
+        "detected_extensions": {
+          "posted_at": "4 days ago",
+          "schedule_type": "Full-time",
+          "salary": "17 an hour"
+        },
+        "job_id": "eyJqb2JfdGl0bGUiOiJCYXJpc3RhIC0gTmV3IEFzdG9yaWEgV2VzdCBCdWlsZGluZyIsImh0aWRvY2lkIjoiYUwtYVlXQkI2VHdBQUFBQUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRW93Q0Nzd0JRVUYwVm14aVFtNVJRV2RWYm05NVdXaGlTR3BuVGsxalFVZ3hOMEZ2TTJadmFsTjFaREJWUTJ4V2IxVXpWVTVLUm1kNlZXTXpaSE4wWjE4Mk1rNUlVMFJ2TVdVdGRFaDZjVlZEWkY5dFpVdFVaalZyTWtrM1UzbzBVRlZWZFVsSFprcExjVGxSWjFaRGVIbGZkbk54ZVhsWGMxTXRObEl0VFRCek1GbzVla1pPY0ZOWmJtbHpSRVl3U1RNMWFsOURhek5pWWtSU056RjJhSGxzVG5ZMmNXbDJRa3RCZVhWa1VrWlRSM1pzYW0xc1IzSnFSSEJaV0RaUGJFaHhXRWREZEdzM01YWm1UMHhVUjBkUUVoZHBNRFZZV1RaNmJrUndkVkYzWW10UWFXRjFNR2xCWXhvaVFVUlZlVVZIWTA1Mk5YRktZWGxsUTBKM1p6QTBXRXhQTUdSamN6SnpUMXByZHciLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xMyIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBXQU5FIEpvYnMiLCJsaW5rIjoiaHR0cHM6Ly9qb2JzLndhbmUuY29tL2pvYnMvYmFyaXN0YS1uZXctYXN0b3JpYS13ZXN0LWJ1aWxkaW5nLW5ldy15b3JrLzc0ODk0MTgzNS0yLz91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+      }
+    ],
+    "chips": [
+      {
+        "type": "Title",
+        "param": "job_family_1",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "Barista",
+            "value": "barista"
+          },
+          {
+            "text": "Starbucks barista",
+            "value": "starbucks barista"
+          },
+          {
+            "text": "Cashier",
+            "value": "cashier"
+          },
+          {
+            "text": "Supervisor",
+            "value": "supervisor"
+          },
+          {
+            "text": "Associate",
+            "value": "associate"
+          },
+          {
+            "text": "Certification",
+            "value": "certification"
+          }
+        ]
+      },
+      {
+        "type": "Location",
+        "param": "city",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "New York, NY",
+            "value": "Owg_06VPwoli_nfhBo8LyA=="
+          },
+          {
+            "text": "Melville, NY",
+            "value": "7wiRxWIp6IlOSlbCn3HqiA=="
+          },
+          {
+            "text": "Carle Place, NY",
+            "value": "hXEFTYOHwolc8QmCc_WerA=="
+          },
+          {
+            "text": "East Northport, NY",
+            "value": "_SkIqH0l6ImNZknr1h_NvQ=="
+          },
+          {
+            "text": "Long Beach, NY",
+            "value": "yYQBQ_ZvwoljkDvjoW2T0w=="
+          },
+          {
+            "text": "Manhasset, NY",
+            "value": "QcszC_SIwol0qInu3eXcOA=="
+          },
+          {
+            "text": "Massapequa Park, NY",
+            "value": "BwrjXYB_wolZd5Fe4ZGNLQ=="
+          },
+          {
+            "text": "Merrick, NY",
+            "value": "b_QsaVR5woloHgvL3TUFfw=="
+          },
+          {
+            "text": "New Hyde Park, NY",
+            "value": "OfwQ1pJiwolAhmseIHElsA=="
+          },
+          {
+            "text": "Port Washington, NY",
+            "value": "R-9ZrMuIwokMbfly-gaXNg=="
+          },
+          {
+            "text": "West New York, NJ",
+            "value": "1bg4GRNYwomWLe-vqDCc4w=="
+          },
+          {
+            "text": "West Nyack, NY",
+            "value": "vzIgVzbowom-MeUdAm6dcg=="
+          }
+        ]
+      },
+      {
+        "type": "Date posted",
+        "param": "date_posted",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "Past day",
+            "value": "today"
+          },
+          {
+            "text": "Past 3 days",
+            "value": "3days"
+          },
+          {
+            "text": "Past week",
+            "value": "week"
+          },
+          {
+            "text": "Past month",
+            "value": "month"
+          }
+        ]
+      },
+      {
+        "type": "Requirements",
+        "param": "requirements",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "No degree",
+            "value": "no_degree"
+          },
+          {
+            "text": "No experience",
+            "value": "no_experience"
+          },
+          {
+            "text": "Under 3 years of experience",
+            "value": "years3under"
+          },
+          {
+            "text": "3+ years of experience",
+            "value": "years3plus"
+          }
+        ]
+      },
+      {
+        "type": "Type",
+        "param": "employment_type",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "Full-time",
+            "value": "FULLTIME"
+          },
+          {
+            "text": "Part-time",
+            "value": "PARTTIME"
+          },
+          {
+            "text": "Contractor",
+            "value": "CONTRACTOR"
+          },
+          {
+            "text": "Internship",
+            "value": "INTERN"
+          }
+        ]
+      },
+      {
+        "type": "Company type",
+        "param": "industry.id",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "Foods & Beverages",
+            "value": "/business/naics2007/311"
+          },
+          {
+            "text": "Restaurant",
+            "value": "/business/naics2007/722"
+          },
+          {
+            "text": "Retail",
+            "value": "/business/naics2007/44"
+          },
+          {
+            "text": "Accommodation",
+            "value": "/business/naics2007/721"
+          },
+          {
+            "text": "Textiles & Apparel",
+            "value": "/business/naics2007/313"
+          },
+          {
+            "text": "Health Care",
+            "value": "/business/naics2007/62"
+          },
+          {
+            "text": "Staffing",
+            "value": "/business/naics2007/5613"
+          },
+          {
+            "text": "Wholesale",
+            "value": "/business/naics2007/42"
+          },
+          {
+            "text": "Engineering Services",
+            "value": "/business/naics2007/5413"
+          },
+          {
+            "text": "Entertainment",
+            "value": "/business/naics2007/71"
+          },
+          {
+            "text": "Manufacturing",
+            "value": "/business/naics2007/31"
+          }
+        ]
+      },
+      {
+        "type": "Employer",
+        "param": "organization_mid",
+        "options": [
+          {
+            "text": "All"
+          },
+          {
+            "text": "Starbucks",
+            "value": "/m/018c_r"
+          },
+          {
+            "text": "Barnes & Noble",
+            "value": "/m/01b7dt"
+          },
+          {
+            "text": "Aramark",
+            "value": "/m/02twx1"
+          },
+          {
+            "text": "Compass Group Careers",
+            "value": "/m/05s08r"
+          },
+          {
+            "text": "AVI Foodsystems Inc",
+            "value": "/m/0809bcw"
+          },
+          {
+            "text": "Blue Bottle",
+            "value": "/m/03p12qd"
+          },
+          {
+            "text": "Bluestone Lane",
+            "value": "/g/11h6ys2kng"
+          },
+          {
+            "text": "Faherty Brand",
+            "value": "/g/11f240377j"
+          },
+          {
+            "text": "Joe Coffee",
+            "value": "/g/11b7cfjgxv"
+          },
+          {
+            "text": "Nordstrom",
+            "value": "/m/01fc_q"
+          },
+          {
+            "text": "All Team Staffing",
+            "value": "/g/11b7ch02s5"
+          },
+          {
+            "text": "Aritzia LP",
+            "value": "/m/02vs4g2"
+          },
+          {
+            "text": "Breads Bakery",
+            "value": "/g/11j30bhr8k"
+          },
+          {
+            "text": "CAFE",
+            "value": "/g/11gmzlmpfx"
+          },
+          {
+            "text": "Chartwells Higher Education",
+            "value": "/g/11fy1r51zs"
+          },
+          {
+            "text": "Cipriani",
+            "value": "/m/05b4b87"
+          },
+          {
+            "text": "Compass Group USA Inc",
+            "value": "/g/11c1wjld5_"
+          },
+          {
+            "text": "Compass Group, North America",
+            "value": "/g/11bc6ld96b"
+          },
+          {
+            "text": "Corner Table Restaurants",
+            "value": "/g/11fy28ff8k"
+          },
+          {
+            "text": "Delaware North",
+            "value": "/m/04xvsq"
+          },
+          {
+            "text": "Doughnut Plant",
+            "value": "/g/121slhjt"
+          },
+          {
+            "text": "Eataly",
+            "value": "/m/0dlk40j"
+          }
+        ]
+      }
+    ]
+  }

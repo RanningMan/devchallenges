@@ -1,0 +1,103 @@
+.jobDescription {
+    text-align: left;
+}
+
+.jobDescription__backButton {
+    display: flex;
+    width: 100%;
+    color: #1E86FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.jobDescription__howToApply__header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #B9BDCF;
+    margin: 1rem 0;
+}
+
+.jobDescription__howToApply__content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334680;
+}
+
+.__backIcon {
+    margin-right: 0.5rem;
+}
+
+.jobDescription__content {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #334680;
+}
+
+.jobDescription__content__jobType {
+    border: 1px solid #334680;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #334680;
+    padding: 6px;
+}
+
+.jobDescription__content__postTime {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.jobDescription__content__companyInfo {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.jobDescription__content__companyInfo__icon {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    object-fit: fill;
+}
+
+.jobDescription__content__companyInfo__companyName {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #334680;
+    margin-bottom: 0.5rem;
+}
+
+.jobDescription__content__companyInfo__location {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9BDCF;
+}
+
+@media screen and (min-width: 768px) {
+    .jobDescription__content {
+        width: 75%;
+    }
+
+    .App {
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+}

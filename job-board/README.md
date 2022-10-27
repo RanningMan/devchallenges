@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Job Board</h1>
 
-## Available Scripts
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://devchallenge-job-board.netlify.app">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/job-board">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `yarn test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `yarn build`
+Learning:
+1. React-router  
+React-router APIs that I used in this project are: createBrowserRouter, loader (with router params), useLoaderData, and Link.
+Code sample:
+```
+in index.js:
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <div>Oops!</div>,
+    loader: appLoader
+  },
+  {
+    path: '/job/:jobId',
+    element: <JobDescription />,
+    loader: jobDescriptionLoader,
+  }
+]);
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+in app.jsx:
+export async function loader({ params }) {}
+export function App() {
+    const data = useLoaderData();
 
-### `yarn eject`
+    <Link
+        to={`job/${encodeURIComponent(job.job_id)}`}
+        className='__reactRouterLink'
+    >
+}
+```
+2. encodeURIComponent  
+Only alphanumerics, the special characters "$-_. +! *'(),", and reserved characters used for their reserved purposes may be used unencoded within a URL. The reserved characters are ";", "/", "?", ":", "@", "=" and "&", which means you would need to URL encode them if you wish to use them.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. localStorage API  
+You have a few methods to choose from when performing operations on localStorage. They are:
+- setItem()
+- getItem()
+- removeItem()
+- clear()
+- key()
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. A concise, modern approach to use fetch API:
+```
+fetch('https://example.com?' + new URLSearchParams({
+    foo: 'value',
+    bar: 2,
+}))
+```
+5. Use `background-size:cover` CSS property to stretch background image.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built With
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-## Learn More
+- [React](https://reactjs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-### Code Splitting
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the given user stories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [x] User story: I can see a list of jobs in a city by default
+- [x] User story: I can search for jobs with a given keyword
+- [] User story: I can search for jobs with a city name, zip code, or other location
+- [x] User story: I can select one option from at least 4 pre-defined options
+- [x] User story: I can search for a full-time job only
+- [x] User story: I can see a list of jobs with their logo, company name, location, and posted time.
+- [x] User story: When I select a job, I can see job descriptions and how to apply like the given design.
+- [x] User story: When I am on the job details page, I can go back to the search page
+- [x] User story (optional): I can see a list of jobs in the closest city from my location by default
+- [x] User story (optional): I can see jobs on different pages, 10 items on each page
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website [rxia.me](https://rxia.me)
+- GitHub [@RanningMan](https://github.com/ranningman)
