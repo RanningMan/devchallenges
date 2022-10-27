@@ -27,7 +27,7 @@ export async function loader() {
 		});
 	});
 	const response = await fetch(
-		`http://api.openweathermap.org/geo/1.0/reverse?lat=${coordinate.coords.latitude}&lon=${coordinate.coords.longitude}&limit=1&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`
+		`https://api.openweathermap.org/geo/1.0/reverse?lat=${coordinate.coords.latitude}&lon=${coordinate.coords.longitude}&limit=1&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}`
 	);
 	const responseJson = await response.json();
 	const location = responseJson[0].name;
