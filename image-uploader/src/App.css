@@ -2,7 +2,7 @@
 
 .app {
   width: 60%;
-  height: 60%;
+  min-height: 60%;
   background: #FFFFFF;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
@@ -17,7 +17,7 @@
   margin: 1rem 0;
 }
 
-.app input {
+.app input.hidden {
   z-index: -1;
   width: 0;
   height: 0;
@@ -72,7 +72,7 @@
   color: #BDBDBD;
 }
 
-.uploadButton {
+.button {
   background: #2F80ED;
   border-radius: 8px;
   font-weight: 500;
@@ -81,8 +81,72 @@
   letter-spacing: -0.035em;
   color: #FFFFFF;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
-.uploadButton label {
+.button label {
   cursor: pointer;
+}
+
+.emptyBar {
+  width: 340.71px;
+  height: 6px;
+  background: #F2F2F2;
+  border-radius: 8px;
+}
+
+.blueBar {
+  height: 100%;
+  width: 25%;
+  background: #2F80ED;
+  border-radius: 8px;
+  animation: loading linear 2s infinite;
+}
+
+@keyframes loading {
+ from {
+  margin-left: 0%;
+ }
+ to {
+  margin-left: 75%;
+ }
+}
+
+.imageUrl {
+  display: flex;
+  background: #F6F8FB;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.imageUrl input {
+  border: none;
+  margin: 2px;
+  background: #F6F8FB;
+}
+
+.imageUrl input:focus {
+  outline: none;
+}
+
+.copyButton {
+  margin: 0;
+  border: none;
+}
+
+.checkmark {
+  background: #219653;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check {
+  color: white;
+  font-size: 3rem;
 }
