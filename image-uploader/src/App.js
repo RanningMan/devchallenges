@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import DnD from './image.svg';
+import { Storage } from 'aws-amplify';
 
 const AppState = {
 	UPLOAD: 'upload',
@@ -56,7 +57,7 @@ function Uploading() {
 	);
 }
 
-function Uploaded({ imageToUpload, uploadedUrl }) {
+function Uploaded({ uploadedUrl }) {
 	const onCopy = () => {
 		navigator.clipboard.writeText(uploadedUrl).then(() => {
 			window.confirm('Copied!');
@@ -70,7 +71,7 @@ function Uploaded({ imageToUpload, uploadedUrl }) {
 			<header className='header'>Uploaded Successfully!</header>
 			<div className='dragAndDropBox'>
 				<div className='dragAndDropBackground'>
-					<img src={imageToUpload} alt='uploaded successfully' />
+					<img src={uploadedUrl} alt='uploaded successfully' />
 				</div>
 			</div>
 			<div className='imageUrl'>
@@ -101,23 +102,24 @@ const getFileToUploadOnDrop = (dropEvent) => {
 	return null;
 };
 
-const wait = (seconds = 3000) => {
-	return new Promise((resolve) =>
-		setTimeout(() => {
-			resolve();
-		}, seconds)
-	);
+const s3Upload = async (file) => {
+	const filename = `${Date.now()}-${file.name}`;
+
+	const stored = await Storage.put(filename, file, {
+		contentType: file.type,
+	});
+
+	return stored.key;
 };
 
 const uploadFile = async (file) => {
-	alert(file.name);
-	await wait();
-	return Promise.resolve({ url: 'https://image.com', image: file });
+	const key = await s3Upload(file);
+	const url = await Storage.get(key);
+	return Promise.resolve({ url: url, image: file });
 };
 
 function App() {
 	const [appState, setAppState] = useState(AppState.UPLOAD);
-	const [imageToUpload, setImageToUpload] = useState('');
 	const [uploadedUrl, setUploadedUrl] = useState('');
 
 	const onFileDragOver = (e) => {
@@ -127,9 +129,8 @@ function App() {
 	const uploadImage = async (fileToUpload) => {
 		if (fileToUpload) {
 			setAppState(AppState.UPLOADING);
-			const { url, image } = await uploadFile(fileToUpload);
+			const { url } = await uploadFile(fileToUpload);
 			setUploadedUrl(url);
-			setImageToUpload(image);
 			setAppState(AppState.UPLOADED);
 		}
 	};
@@ -166,9 +167,7 @@ function App() {
 	} else if (appState === AppState.UPLOADING) {
 		content = <Uploading />;
 	} else if (appState === AppState.UPLOADED) {
-		content = (
-			<Uploaded imageToUpload={imageToUpload} uploadedUrl={uploadedUrl} />
-		);
+		content = <Uploaded uploadedUrl={uploadedUrl} />;
 	}
 	return <div className='app'>{content}</div>;
 }

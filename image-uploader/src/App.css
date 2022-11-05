@@ -61,7 +61,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  width: 100%;
 }
 
 .linebreaker {
@@ -125,6 +125,7 @@
   border: none;
   margin: 2px;
   background: #F6F8FB;
+  width: 100%;
 }
 
 .imageUrl input:focus {
@@ -149,4 +150,10 @@
 .check {
   color: white;
   font-size: 3rem;
+}
+
+.dragAndDropBackground img {
+  max-width: 100%;
+  height: auto;
+  max-height: 20rem;
 }

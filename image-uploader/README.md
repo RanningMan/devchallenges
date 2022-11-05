@@ -36,9 +36,6 @@
 
 ## Overview
 
-[architecture](./architecture.svg)
-<img src='./architecture.svg' alt='architecture' />
-
 Learnings:
 
 1. how to hide file upload input
@@ -89,24 +86,36 @@ There are three primary browser APIs for copying to the clipboard:
   - Allows you to modify what appears on the clipboard from any copy event, can include other formats of data other than plain text.
   - Not covered here as it doesn't directly answer the question.
 
+5. Use aws-amplify
+  The open-source Amplify provides the following products to build fullstack iOS, Android, Flutter, Web, and React Native apps:
+
+  Amplify CLI - Configure all the services needed to power your backend through a simple command line interface.
+  Amplify Libraries - Use case-centric client libraries to integrate your app code with a backend using declarative interfaces.
+  Amplify UI Components - UI libraries for React, React Native, Angular, Vue and Flutter.
+  The Amplify Hosting is an AWS service that provides a git-based workflow for continuous deployment & hosting of fullstack web apps. Cloud resources created by the Amplify CLI are also visible in the Amplify Console.
+
+  - ? It is required to use Auth in the code, so at least Auth.configure({}) needs to be called
+  - ? It is always required to create a user pool and identity pool in order to use amplify APIs
+
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [AWS lambda](https://aws.amazon.com/lambda/)
 - [AWS S3](https://aws.amazon.com/s3/)
+- [AWS Amplify](https://docs.amplify.aws/)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.  
--[] User story: I can drag and drop an image to upload it
--[] User story: I can choose to select an image from my folder
--[] User story: I can see a loader when uploading
--[] User story: When the image is uploaded, I can see the image and copy it
--[] User story: I can choose to copy to the clipboard  
+-[x] User story: I can drag and drop an image to upload it
+-[x] User story: I can choose to select an image from my folder
+-[x] User story: I can see a loader when uploading
+-[x] User story: When the image is uploaded, I can see the image and copy it
+-[x] User story: I can choose to copy to the clipboard  
 
 ## Acknowledgements
 
