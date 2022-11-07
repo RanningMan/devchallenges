@@ -1,0 +1,14 @@
+{
+  "resourceName": "myunsplash",
+  "tableName": "images",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "uploadTime",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
