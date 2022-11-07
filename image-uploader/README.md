@@ -86,7 +86,7 @@ There are three primary browser APIs for copying to the clipboard:
   - Allows you to modify what appears on the clipboard from any copy event, can include other formats of data other than plain text.
   - Not covered here as it doesn't directly answer the question.
 
-5. Use aws-amplify
+5. Use aws-amplify  
   The open-source Amplify provides the following products to build fullstack iOS, Android, Flutter, Web, and React Native apps:
 
   Amplify CLI - Configure all the services needed to power your backend through a simple command line interface.
