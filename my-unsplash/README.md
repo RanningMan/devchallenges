@@ -57,6 +57,21 @@ Learnings:
 
   Step 5: To add API, run `amplify add api`  
   Step 6: To add Auth, run `amplify add auth`
+  Step 7: Until now, all the changes are local; run `amplify push` to push local changes to cloud
+  Step 7: To make call to API, 
+    ```
+    async function postData() {
+      const apiName = 'MyApiName';
+      const path = '/path';
+      const myInit = {
+        body: {}, // replace this with attributes you need
+        headers: {} // OPTIONAL
+      };
+
+      return await API.post(apiName, path, myInit);
+    }
+    ```
+
 
 ### **2.use grid layout and fr unit **
 ```
@@ -66,22 +81,43 @@ main {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
 }
+```  
+### **3.use grid to overlay **  
 ```
+Most minimal Grid Overlay example:
+
+HTML
+
+<div class="container">
+  <div class="content">This is the content</div>
+  <div class="overlay">Overlay - must be placed under content in the HTML</div>
+</div>
+CSS
+
+.container {
+  display: grid;
+}
+
+.content, .overlay {
+  grid-area: 1 / 1;
+}
+```  
 
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP) was to build an application to complete the given user stories.
+
+- [x] User story: I can see a list of photos in the masonry layout that I have added  
+- [x] User story: I can add a new photo to the list - the new photo should be on top of the list  
+- [] User story: I can search for photos by label  
+- [x] User story: When I hover a photo, I can see a label and a delete button  
+- [x] User story: I can delete images  
+- [x] User story (optional): When I delete an image, I can enter my password  
 
 ## How To Use
 

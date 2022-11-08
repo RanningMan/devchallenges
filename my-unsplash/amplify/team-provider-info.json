@@ -13,10 +13,19 @@
     },
     "categories": {
       "function": {
-        "myunsplashImagesFunction": {}
+        "myunsplashImagesFunction": {
+          "deploymentBucketName": "amplify-myunsplash-dev-185706-deployment",
+          "s3Key": "amplify-builds/myunsplashImagesFunction-6f6f7043773945633358-build.zip"
+        }
       },
       "auth": {
         "myunsplash": {}
+      },
+      "storage": {
+        "myunsplash": {}
+      },
+      "api": {
+        "unsplash": {}
       }
     }
   }
