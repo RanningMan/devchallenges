@@ -62,13 +62,13 @@ app.get(path, function (req, res) {
 		TableName: tableName,
 	};
 
-	if (req.body && req.body.label) {
+	if (req.query && req.query.label) {
 		queryParams = {
 			...queryParams,
-			FilterExpression: 'contains (label, :label)',
 			ExpressionAttributeValues: {
-				':label': { S: req.body.label },
+				':label': req.query.label,
 			},
+			FilterExpression: 'contains(label, :label)',
 		};
 	}
 
@@ -77,7 +77,7 @@ app.get(path, function (req, res) {
 			res.statusCode = 500;
 			res.json({ error: 'Could not load items: ' + err });
 		} else {
-			res.json(data.Items);
+			res.json({ data: data.Items, queryParams, query: req.query });
 		}
 	});
 });

@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://dev-challenge-myunsplash.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/RanningMan/devchallenges/tree/main/my-unsplash">
       Solution
     </a>
     <span> | </span>
@@ -37,6 +37,9 @@
 
 ## Overview
 
+architecture:
+![arch](architecture.svg)
+
 Learnings:
 
 ### **1.Steps to init a serverless app with Amplify Framework (React FE + Rest API + Lambda Function)**
@@ -54,7 +57,7 @@ Learnings:
     import awsExports from './aws-exports';  
     Amplify.configure(awsExports);  
     ```
-
+    You may want to move your Ids to environment variables
   Step 5: To add API, run `amplify add api`  
   Step 6: To add Auth, run `amplify add auth`
   Step 7: Until now, all the changes are local; run `amplify push` to push local changes to cloud
@@ -73,7 +76,7 @@ Learnings:
     ```
 
 
-### **2.use grid layout and fr unit **
+### **2.use grid layout and fr unit to split columns evenly**
 ```
 main {
   margin-top: 5rem;

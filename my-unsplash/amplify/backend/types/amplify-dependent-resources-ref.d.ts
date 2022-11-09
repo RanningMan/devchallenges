@@ -29,12 +29,5 @@ export type AmplifyDependentResourcesAttributes = {
             "AppClientIDWeb": "string",
             "AppClientID": "string"
         }
-    },
-    "api": {
-        "unsplash": {
-            "RootUrl": "string",
-            "ApiName": "string",
-            "ApiId": "string"
-        }
     }
 }

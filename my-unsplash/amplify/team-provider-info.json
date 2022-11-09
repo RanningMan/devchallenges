@@ -15,7 +15,7 @@
       "function": {
         "myunsplashImagesFunction": {
           "deploymentBucketName": "amplify-myunsplash-dev-185706-deployment",
-          "s3Key": "amplify-builds/myunsplashImagesFunction-6f6f7043773945633358-build.zip"
+          "s3Key": "amplify-builds/myunsplashImagesFunction-633836706c316470316b-build.zip"
         }
       },
       "auth": {
@@ -25,7 +25,8 @@
         "myunsplash": {}
       },
       "api": {
-        "unsplash": {}
+        "unsplash": {},
+        "myunsplash": {}
       }
     }
   }

@@ -186,7 +186,7 @@ function App() {
 	useEffect(() => {
 		const fetchData = async () => {
 			const response = await API.get(apiName, path, {});
-			setImages(response);
+			setImages(response.data);
 		};
 		fetchData();
 	}, []);
@@ -211,9 +211,11 @@ function App() {
 
 	const fetchDataWithKeyword = async (keyword) => {
 		const response = await API.get(apiName, path, {
-			body: keyword,
+			queryStringParameters: {
+				label: keyword, // OPTIONAL
+			},
 		});
-		setImages(response);
+		setImages(response.data);
 	};
 
 	return (
