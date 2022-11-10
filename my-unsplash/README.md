@@ -85,7 +85,7 @@ main {
   column-gap: 2rem;
 }
 ```  
-### **3.use grid to overlay **  
+### **3.use grid to overlay**  
 ```
 Most minimal Grid Overlay example:
 
@@ -117,7 +117,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - [x] User story: I can see a list of photos in the masonry layout that I have added  
 - [x] User story: I can add a new photo to the list - the new photo should be on top of the list  
-- [] User story: I can search for photos by label  
+- [x] User story: I can search for photos by label  
 - [x] User story: When I hover a photo, I can see a label and a delete button  
 - [x] User story: I can delete images  
 - [x] User story (optional): When I delete an image, I can enter my password  
@@ -149,6 +149,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [rxia.me](https://rxia.me)
+- GitHub [@RanningMan](https://github.com/ranningman)
