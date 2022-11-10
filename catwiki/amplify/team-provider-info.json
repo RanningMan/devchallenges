@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-catwiki-dev-230235-authRole",
+      "UnauthRoleArn": "arn:aws:iam::190532847443:role/amplify-catwiki-dev-230235-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::190532847443:role/amplify-catwiki-dev-230235-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-catwiki-dev-230235-deployment",
+      "UnauthRoleName": "amplify-catwiki-dev-230235-unauthRole",
+      "StackName": "amplify-catwiki-dev-230235",
+      "StackId": "arn:aws:cloudformation:us-east-1:190532847443:stack/amplify-catwiki-dev-230235/a90982b0-60c5-11ed-b4e3-0a70d093d953",
+      "AmplifyAppId": "d36eteiq11dsuh"
+    }
+  }
+}
