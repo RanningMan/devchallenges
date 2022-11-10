@@ -52,17 +52,19 @@ Learnings:
   
   Step 4: Add below code to configure FE to use amplify
     
-    ```
     import { Amplify } from 'aws-amplify';
     import awsExports from './aws-exports';  
     Amplify.configure(awsExports);  
-    ```
-    You may want to move your Ids to environment variables
+    
+  You may want to move your Ids to environment variables
   Step 5: To add API, run `amplify add api`  
-  Step 6: To add Auth, run `amplify add auth`
-  Step 7: Until now, all the changes are local; run `amplify push` to push local changes to cloud
-  Step 7: To make call to API, 
-    ```
+
+  Step 6: To add Auth, run `amplify add auth`  
+
+  Step 7: Until now, all the changes are local; run `amplify push` to push local changes to cloud  
+  
+  Step 8: To make call to API,   
+
     async function postData() {
       const apiName = 'MyApiName';
       const path = '/path';
@@ -70,10 +72,9 @@ Learnings:
         body: {}, // replace this with attributes you need
         headers: {} // OPTIONAL
       };
-
       return await API.post(apiName, path, myInit);
     }
-    ```
+    
 
 
 ### **2.use grid layout and fr unit to split columns evenly**
@@ -121,23 +122,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: When I hover a photo, I can see a label and a delete button  
 - [x] User story: I can delete images  
 - [x] User story (optional): When I delete an image, I can enter my password  
-
-## How To Use
-
-<!-- Example: -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
 
 ## Acknowledgements
 
