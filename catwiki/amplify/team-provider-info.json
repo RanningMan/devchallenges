@@ -9,7 +9,39 @@
       "UnauthRoleName": "amplify-catwiki-dev-230235-unauthRole",
       "StackName": "amplify-catwiki-dev-230235",
       "StackId": "arn:aws:cloudformation:us-east-1:190532847443:stack/amplify-catwiki-dev-230235/a90982b0-60c5-11ed-b4e3-0a70d093d953",
-      "AmplifyAppId": "d36eteiq11dsuh"
+      "AmplifyAppId": "d36eteiq11dsuh",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-catwiki-dev-230235-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "catwikif4aa0217": {}
+      },
+      "storage": {
+        "catbreedsjson": {},
+        "topsearchedbreeds": {},
+        "searchTable": {}
+      },
+      "function": {
+        "topSearchedBreedsFunction": {
+          "deploymentBucketName": "amplify-catwiki-dev-230235-deployment",
+          "s3Key": "amplify-builds/topSearchedBreedsFunction-4d676261495762536653-build.zip"
+        },
+        "breedsListFunction": {
+          "deploymentBucketName": "amplify-catwiki-dev-230235-deployment",
+          "s3Key": "amplify-builds/breedsListFunction-504e644b4b394c343071-build.zip"
+        },
+        "BreedDetailsFunction": {
+          "deploymentBucketName": "amplify-catwiki-dev-230235-deployment",
+          "s3Key": "amplify-builds/BreedDetailsFunction-766f627253546551367a-build.zip"
+        },
+        "aggregateTopSearchedBreeds": {
+          "deploymentBucketName": "amplify-catwiki-dev-230235-deployment",
+          "s3Key": "amplify-builds/aggregateTopSearchedBreeds-47577034504b6138614f-build.zip"
+        }
+      },
+      "api": {
+        "topSearchedBreeds": {}
+      }
     }
   }
 }
