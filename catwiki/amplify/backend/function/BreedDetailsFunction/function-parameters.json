@@ -1,0 +1,15 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "topsearchedbreeds": [
+        "read"
+      ],
+      "searchTable": [
+        "create",
+        "read",
+        "update"
+      ]
+    }
+  }
+}

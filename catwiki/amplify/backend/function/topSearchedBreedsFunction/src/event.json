@@ -1,0 +1,8 @@
+{
+  "httpMethod": "GET",
+  "path": "/topSearch",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"msg\":\"Hello from the event.json body\"}"
+}

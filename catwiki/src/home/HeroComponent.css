@@ -1,0 +1,122 @@
+.heroBackground {
+    width: 100%;
+    height: 12rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    background-size: 100% 100%;
+    background-image: url('../assets/HeroImagesm.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heroBackground__content {
+    width: 50%;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.heroBackground__content__subtitle {
+    margin: 1rem 0;
+}
+
+.mostSearchedBreeds {
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background: #E3E1DC;
+    padding: 0 1rem;
+}
+
+.mostSearchedBreeds__title {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #291507;
+}
+
+.mostSearchedBreeds__title::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #291507;
+    transform: translateY(0.3rem);
+}
+
+.mostSearchedBreeds__headerLine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.mostSearchedBreeds__headerLine__header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #291507;
+}
+
+.mostSearchedBreeds__headerLine__seeMore::after {
+    content: '→';
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.mostSearchedBreeds__headerLine__seeMore {
+    cursor: pointer;
+}
+
+.mostSearchedBreeds__content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+.mostSearchedBreeds__content__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.mostSearchedBreeds__content__img img {
+    width: 100%;
+    height: calc(100% - 1rem);
+    object-fit: fill;
+    border-radius: 12px;
+}
+
+.mostSearchedBreeds__content__img__name {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #291507;
+}
+
+.heroBackground__content__searchBar__icon {
+    color: black;
+}
+
+@media screen and (min-width: 826px) and (max-width: 1248px) {
+    .heroBackground {
+        height: 30rem;
+        background-image: url('../assets/HeroImagemd.png');
+    }
+}
+
+@media screen and (min-width: 1249px) {
+    .heroBackground {
+        height: 30rem;
+        background-image: url('../assets/HeroImagelg.png');
+    }
+}

@@ -1,0 +1,86 @@
+.modalWrapper {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(1,1,1, 30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 50%;
+    background: white;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.modal__header {
+    text-align: right;
+    margin-bottom: 3rem;
+    color: #291507;
+    cursor: pointer;
+}
+
+.modal__searchBar {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border: solid 1px #291507;
+    padding: 0.5rem 0.5rem;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 1rem;
+    background: white;
+    padding: 0.5rem 0.5rem;
+}
+
+.modal__searchBar input, .searchBar input {
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.searchBar__icon {
+    color: black;
+}
+
+.dropdown-modal {
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.dropdown__item {
+    color: #291507;
+    padding: 0.5rem;
+}
+
+.dropdown__item:hover {
+    background: rgba(151, 151, 151, 0.1);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background: white;
+    width: 50%;
+    padding: 0.5rem 0.5rem;
+    position: absolute;
+    z-index: 1000;
+}
+
+.searchBarWrapper {
+    position: relative;
+}
+

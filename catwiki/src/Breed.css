@@ -1,0 +1,63 @@
+.level__block {
+    display: inline-block;
+    width: 3rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    margin: 0.1rem 0.1rem;
+}
+
+.level__block-dark {
+    background: black;
+}
+
+.level__block-light {
+    background: #E0E0E0;
+}
+
+.breedInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.breedInfo__image {
+    width: 15rem;
+    min-height: 15rem;
+    border-radius: 2rem;
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.breedInfo__details {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.breedInfo__details-level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.breedInfo__details-content {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.breedImage {
+    text-align: left;
+}
+
+.breedImage__imageList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.breedImage__image {
+    width: 12rem;
+    height: 12rem;
+    object-fit: fill;
+    margin: 1rem;
+    border-radius: 1rem;
+}

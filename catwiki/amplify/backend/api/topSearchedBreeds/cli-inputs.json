@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/breedsList": {
+      "name": "/breedsList",
+      "lambdaFunction": "breedsListFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/topSearch": {
+      "name": "/topSearch",
+      "lambdaFunction": "topSearchedBreedsFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/breed": {
+      "name": "/breed",
+      "lambdaFunction": "BreedDetailsFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

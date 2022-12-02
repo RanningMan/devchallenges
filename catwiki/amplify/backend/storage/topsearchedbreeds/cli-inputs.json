@@ -1,0 +1,10 @@
+{
+  "resourceName": "topsearchedbreeds",
+  "tableName": "topsearchedbreeds",
+  "partitionKey": {
+    "fieldName": "searchId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
