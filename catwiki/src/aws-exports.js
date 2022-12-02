@@ -1,4 +1,4 @@
-const exports = {
+const awsExports = {
 	aws_project_region: process.env.REACT_APP_REGION,
 	aws_cognito_identity_pool_id: process.env.REACT_APP_IDENTITY_POOL_ID,
 	aws_cognito_region: process.env.REACT_APP_REGION,
@@ -39,4 +39,4 @@ const exports = {
 	],
 };
 
-export default exports;
+export default awsExports;
