@@ -49,6 +49,7 @@ function SearchBarInner({ isMobileStyle, onClick, onDropDownItemClick }) {
 							setPrefix(e.target.value);
 						}, 1000);
 					}}
+					autoFocus
 				/>
 				<span className='material-symbols-outlined searchBar__icon'>
 					search

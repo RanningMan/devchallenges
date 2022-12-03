@@ -24,7 +24,7 @@ export async function loader({ params }) {
 
 function Level({ number }) {
 	return (
-		<>
+		<div>
 			{new Array(number).fill(0).map((_, idx) => (
 				<span
 					key={idx}
@@ -37,7 +37,7 @@ function Level({ number }) {
 					className='level__block level__block-light'
 				></span>
 			))}
-		</>
+		</div>
 	);
 }
 

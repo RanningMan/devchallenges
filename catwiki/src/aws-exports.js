@@ -21,11 +21,11 @@ const awsExports = {
 	aws_dynamodb_all_tables_region: process.env.REACT_APP_REGION,
 	aws_dynamodb_table_schemas: [
 		{
-			tableName: REACT_APP_TOPSEARCHEDBREEDS_TABLE_NAME,
+			tableName: process.env.REACT_APP_TOPSEARCHEDBREEDS_TABLE_NAME,
 			region: process.env.REACT_APP_REGION,
 		},
 		{
-			tableName: REACT_APP_SEARCHTABLE_TABLE_NAME,
+			tableName: process.env.REACT_APP_SEARCHTABLE_TABLE_NAME,
 			region: process.env.REACT_APP_REGION,
 		},
 	],

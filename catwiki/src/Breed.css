@@ -36,6 +36,7 @@
 .breedInfo__details-level {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .breedInfo__details-content {
