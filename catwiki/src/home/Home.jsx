@@ -5,7 +5,12 @@ import BlogComponent from './BlogComponent';
 
 function Home() {
 	return (
-		<Mainlayout upperRender={HeroComponent} lowerRender={BlogComponent} />
+		<div className='home'>
+			<Mainlayout
+				upperRender={HeroComponent}
+				lowerRender={BlogComponent}
+			/>
+		</div>
 	);
 }
 

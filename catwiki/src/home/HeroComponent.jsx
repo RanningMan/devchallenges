@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useLoaderData, useNavigate } from 'react-router';
 
 import './HeroComponent.css';
@@ -21,7 +20,7 @@ export async function loader() {
 		allBreeds = JSON.parse(allBreeds);
 	}
 	const topSearch = await API.get(apiName, '/topSearch', {});
-	return allBreeds
+	const topSearchedDetails = allBreeds
 		.filter((breed) => topSearch.includes(breed.id))
 		.map((breed) => {
 			return {
@@ -31,15 +30,13 @@ export async function loader() {
 				description: breed.description,
 			};
 		});
+	localStorage.setItem('topSearch', JSON.stringify(topSearchedDetails));
+	return topSearchedDetails.slice(0, 4);
 }
 
 function HeroComponent() {
 	const topSearched = useLoaderData();
 	const navigate = useNavigate();
-
-	useEffect(() => {
-		localStorage.setItem('topSearch', JSON.stringify(topSearched));
-	}, [topSearched]);
 
 	const onSearch = async (breedId) => {
 		await API.post(apiName, `/breed?id=${breedId}`, {

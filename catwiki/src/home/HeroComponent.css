@@ -120,3 +120,23 @@
         background-image: url('../assets/HeroImagelg.png');
     }
 }
+
+@media screen and (min-width: 826px) {
+    .hero > * {
+        box-sizing: border-box;
+        padding: 2rem 5rem;
+    }
+
+    .mostSearchedBreeds__content {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    .mostSearchedBreeds__content__img img {
+        width: 100%;
+        height: calc(100% - 6rem);
+        object-fit: fill;
+        border-radius: 12px;
+    }
+}

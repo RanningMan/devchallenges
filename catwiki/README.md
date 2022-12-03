@@ -78,10 +78,20 @@ code example:
     }
     ```  
 2. Amplify vs SAM vs Serverless  
+Amplify is best suited for client developers who only need a very simple backend.
+Serverless is best suited when both client and server sides are complex. But Serverless has a big community and rich plug-ins.
+SAM is similar to Serverless, but does not have good plug-in support.
 
 3. DynanmoDB stream  
+It is dynamoDB's implementation of Change Data Capture. It can be used to trigger lambda functions.
 
 4. `for await`  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of  
+```
+    for await (const record of event.Records) {
+			await processSingleEvent(record);
+		}
+``` 
 
 ### Built With
 
@@ -97,7 +107,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: I can see the breed details including description, temperament, origin, life span, adaptability, affection level, child-friendly, grooming, intelligence, health issues, social needs, stranger friendly
 - [x] User story: I can see more photo of the breed
 - [x] User story: On mobile, when I select the search option, a modal for breed search should pop up
-- [] User story (optional): I can go to an article about cats when I click read more on Why you should have a cat section
+- [x] User story (optional): I can go to an article about cats when I click read more on Why you should have a cat section
 - [x] User story (optional): I can go to the top 10 cats by clicking see more in the dashboard
 
 ## Acknowledgements

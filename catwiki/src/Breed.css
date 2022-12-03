@@ -62,3 +62,32 @@
     margin: 1rem;
     border-radius: 1rem;
 }
+
+@media screen and (min-width: 826px) {
+    .breedInfo {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 10rem;
+        padding: 5rem 10rem;
+    }
+
+    .breedInfo__image {
+        width: 20%;
+    }
+
+    .breedInfo__details h3 {
+        margin: 0;
+    }
+
+    .breedInfo__details-level {
+        width: calc(100% - 10rem);
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #291507;
+    }
+}
