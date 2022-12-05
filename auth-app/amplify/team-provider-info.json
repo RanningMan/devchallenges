@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authapp-dev-233938-authRole",
+      "UnauthRoleArn": "arn:aws:iam::190532847443:role/amplify-authapp-dev-233938-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::190532847443:role/amplify-authapp-dev-233938-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-authapp-dev-233938-deployment",
+      "UnauthRoleName": "amplify-authapp-dev-233938-unauthRole",
+      "StackName": "amplify-authapp-dev-233938",
+      "StackId": "arn:aws:cloudformation:us-east-1:190532847443:stack/amplify-authapp-dev-233938/cfc4cce0-73a6-11ed-973e-0eaa196a18d1",
+      "AmplifyAppId": "dcg2c98uohz0"
+    },
+    "categories": {
+      "auth": {
+        "authappf535af62": {
+          "facebookAppId": "543487770626716",
+          "googleClientId": "581880704031-ootmf3nabjigti41jlfbhbarhdeqokuo.apps.googleusercontent.com"
+        }
+      }
+    }
+  }
+}
