@@ -40,6 +40,9 @@
 architecture:
 ![arch](./architecture.png)
 
+learning:
+1. get familiarize with amplify auth APIs
+
 ### Built With
 
 - [React](https://reactjs.org/)
@@ -51,8 +54,8 @@ architecture:
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP) was to build an application to complete the given user stories.
 
-- [] User story: I can register a new account
-- [] User story: I can log in
+- [x] User story: I can register a new account
+- [x] User story: I can log in
 - [] User story: I can log in or register with at least one of the following services: Google, Facebook, Twitter or Github
 - [] User story: I can sign out
 - [] User story: I can see my profile details

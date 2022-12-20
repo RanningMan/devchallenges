@@ -1,0 +1,94 @@
+.loginsignup {
+    font-family: 'Noto Sans';
+    margin: auto;
+    text-align: left;
+    max-width: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    border-radius: 24px;
+    padding: 3rem 5rem;
+}
+
+.loginsignup__form {
+    width: 100%;
+}
+
+.loginsignup__form__input {
+    width: 100%;
+    border: 1px solid #BDBDBD;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.loginsignup__form__input input {
+    outline: none;
+    border: none;
+    width: 90%;
+}
+
+.loginsignup__form__button {
+    width: 100%;
+    background: #2F80ED;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.loginsignup__form__splitline {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.loginsignup__form__logoList {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.loginsignup__form__logoList img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 384px) {
+    .loginsignup {
+        text-align: left;
+        border: none;
+        border-radius: none;
+        padding: 1rem;
+    }
+    
+    .loginsignup__form {
+        width: 100%;
+    }
+    
+    .loginsignup__form__input {
+        width: 100%;
+        border: 1px solid #BDBDBD;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+        gap: 0.5rem;
+    }
+    
+    .loginsignup__form__logoList {
+        width: 80%;
+    }    
+}

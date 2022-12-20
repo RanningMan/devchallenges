@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css';
-import Login from './Login';
+import Login, { action as loginAction } from './Login';
 import Profile from './Profile';
-import SignUp from './SignUp';
+import SignUp, { action as signUpAction } from './SignUp';
 
 const router = createBrowserRouter([
 	{
@@ -13,10 +13,12 @@ const router = createBrowserRouter([
 	{
 		path: '/login',
 		element: <Login />,
+		action: loginAction,
 	},
 	{
 		path: '/signup',
 		element: <SignUp />,
+		action: signUpAction,
 	},
 ]);
 
